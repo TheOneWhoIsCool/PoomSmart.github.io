@@ -1,0 +1,324 @@
+from helper import *
+
+youtube = [
+    {
+        "file": "ytuhd",
+        "title": "YTUHD",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "description": "<p>Unlock 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
+        "changes": [
+            ["1.3.5", [
+                    "Updated spoof version to 15.7.2 (for iOS 14-)"
+                    "Updated tr, zh_cn localization"
+                ]
+            ],
+            ["1.3.4-2", "Added ar, de, fr, hu, it, ja, ko, nl, pt, ro, ru, tr, vi, zh_cn, zh_tw localization"],
+            ["1.2.10", "Prevent the app from choosing AVC1 over VP9 codec"],
+            ["1.2.9", [
+                    "Hooks MLABRPolicyNew and MLABRPolicyOld classes (introduced in YouTube 17.30.3)",
+                    "Updated spoofed version to iOS 15.6 (for iOS 13-)"
+                ]
+            ],
+            ["1.2.8", "Reverted non-HDR 720p+ workaround because YouTube has fixed the issue"],
+            ["1.2.7", [
+                    "Allows non-HDR 720p+ formats of UHD HDR videos to display as options (for iOS 14/sideloaded?)",
+                    "Updated spoofed version to iOS 15.4.1 (for iOS 13-)"
+                ]
+            ],
+            ["1.2.6", "Updated spoofed version to iOS 14.8.1 (for iOS 13-)"],
+            ["1.2.5", "Fixed crashing on some older YouTube versions"],
+            ["1.2.4", "Forces enabling Video quality settings on older YouTube to have YTUHD setting there"]
+        ]
+    },
+    {
+        "file": "youpip",
+        "title": "YouPiP",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "featured_as_banner": True,
+        "description": "<p>Enable native PiP in iOS YouTube app.</p>\
+            <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 15.10.4 but full compatibility for older versions is low-priority.</p>",
+        "changes": [
+            ["1.7.19", "You may now enable or disable YouPiP from its settings"],
+            ["1.7.18", "Fixed PiP not activating for some people"],
+            ["1.7.17", "Fixed \"Fake YouTube version\" not restoring the old video bar for some people"],
+            ["1.7.16 (15.10.4+)", "Fixed crashing when activating PiP with \"Legacy PiP\" enabled on recent YouTube versions"],
+            ["1.7.15-2", "Added ro, tr localization, Updated ar, zh_tw localization"],
+            ["1.7.13", [
+                    "Fixed crashing when activating PiP on YouTube 17.41.2",
+                    "Added de, hu, it, ja, ko, nl localization, Updated vi, zh_cn localization"
+                ]
+            ],
+            ["1.7.9", [
+                    "Removed workaround code for iSponsorBlock (1.0-15) when its controls are displayed on the video overlay",
+                    "Added ar, pt, zh_cn localization"
+                ]
+            ],
+            ["1.7.7", "Fixed missing video overflow options when Fake YouTube version is enabled"],
+            ["1.7.6", "Fixed PiP closing itself for videos autoplaying in Home feed"],
+            ["1.7.5", "Fixed PiP not working sometimes with the mini-player (credits to @level3tjg)"],
+            ["1.7.4", [
+                    "Added missing parentResponder property to YTPlayerPIPController (iOS 14-) in YouTube 17.23.6",
+                    "Added fr, zh_tw localization"
+                ]
+            ],
+            ["1.7.3 (15.10.4 - ?)", "Fixed compatibility with YouTube 17.23.6"],
+            ["1.7.2", [
+                    "Added vi, ru localization",
+                    "Deprecated Sample Buffer Hack"
+                ]
+            ],
+            ["1.7.1", "Made app version warning alert YouTube-style"],
+            ["1.7.0", [
+                    "Moved all YouPiP settings into its own category (under General section)",
+                    "Added \"Fake YouTube version\" setting (for YouTube newer than 16.46.5)"
+                ]
+            ],
+            ["1.6.12", "Added \"Disable PiP for Mini Player\" setting (credits to @level3tjg)"],
+            ["1.6.11 (15.10.4 - 17.22.3)", "Fixed compatibility with YouTube 17.16.4"],
+            ["1.6.9", "Tweaked PiP icon in video tab bar, for those who still have it (credits to @dayanch96)"],
+            ["1.6.8", "Fixed regression introduced in 1.6.7"],
+            ["1.6.7", "Fixed rare crashing when playing videos on iOS 12"],
+            ["1.6.6", "Fixed PiP still activating on app dismiss in some situations when PiP button is enabled"],
+            ["1.6.5 (15.10.4 - 17.15.2)", "Fixed crashing on YouTube 17.03.2 when playing a video with Legacy PiP on"],
+            ["1.6.4", "Fixed possible crashing when displaying compatibility alert (credits to @bakedpotato191)"],
+            ["1.6.2", "Fixed app crashing on iOS 13- when skipping ads (credits testing to @NguyenASang)"],
+            ["1.6.1", "Fixed PiP not working on iOS 12- for clean YouTube install"],
+            ["1.6.0", "Added \"Use Video Tab Bar PiP Button\" setting (credits to @BandarHL)"],
+            ["1.5.15", "Fixed support for iOS 12-"],
+            ["1.5.14", "Made Legacy PiP enabled by default for iOS 11/12 (regression fix for 1.5.13)"],
+            ["1.5.12", "Made PiP toggle displays for non-premium users on YouTube 16.40.3"],
+            ["1.5.11", [
+                    "Known issue: PiP may not work on iOS 12",
+                    "Fixed crashing on some older YouTube versions",
+                    "Enforces legacy video decoder when legacy PiP is enabled"
+                ]
+            ],
+            ["1.5.10", [
+                    "Compiled with iOS 15.0 SDK",
+                    "Added PiP controller injection into YTAutonavEndscreenController for better iOS 13- compatibility"
+                ]
+            ],
+            ["1.5.9", "Fixed PiP controller not working on iOS 13- in recent YouTube versions"],
+            ["1.5.8", "Minor code optimizations"],
+            ["1.5.7", "Fixed YouPiP settings not showing on older versions of YouTube"],
+            ["1.5.6 (15.10.4 - 17.01.4)", "Fixed crashing on YouTube 16.29.4"]
+        ]
+    },
+    {
+        "file": "youmusicpip",
+        "title": "YouMusicPiP",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "description": "<p>Enable native PiP in YouTube Music app. This works for videos present in the app.</p>"
+    },
+    {
+        "file": "ytclassicvideoquality",
+        "title": "YTClassicVideoQuality",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "inline_source_code": True,
+        "description": "<p>Revert to the original video quality selector in YouTube app.</p>",
+        "changes": [
+            ["1.0.1", "Fixed crashing in YouTube 16.20.5"],
+            ["1.0.0", "Initial release"]
+        ]
+    },
+    {
+        "file": "ytsystemappearance",
+        "title": "YTSystemAppearance",
+        "min_ios": "13.0",
+        "tintColor": "red",
+        "inline_source_code": True,
+        "description": "<p>Enable setting appearance (Light/Dark) based on system in YouTube app. Because this feature is based on iOS dark mode, the tweak only supports iOS/iPadOS 13 and above. YouTube version 15.10.4 and higher are officially supported. Older (but not too old) versions may.</p>"
+    },
+    {
+        "file": "ytreexplore",
+        "title": "YTReExplore",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "screenshots": True,
+        "description": "<p>Remove Shorts tab and replace with Explore tab in YouTube app.</p>\
+            <p>This tweak is mostly for iPhones and iPods where Explore is replaced with Shorts.</p>\
+            <p>Limitation: The text \"Explore\" is hardcoded in English because its localization is entirely from server-side.</p>",
+        "changes": [
+            ["1.0.2", "Supports YouTube 16.45.4"]
+        ]
+    },
+    {
+        "file": "ytshortsprogress",
+        "title": "YTShortsProgress",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "description": "<p>Always enable progress bar and scrubbing in YouTube Shorts.</p>",
+        "changes": [
+            ["1.0.2", "Fixed a bug where swiping on a full-screen video always triggers progress bar change"],
+            ["1.0.1", "Fully supports iPad"]
+        ]
+    },
+    {
+        "file": "youarethere",
+        "title": "YouAreThere",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "inline_source_code": True,
+        "description": "<p>Disable \"Video paused. Continue watching?\" popup in YouTube app when you play a long video.</p>"
+    },
+    {
+        "file": "noytpremium",
+        "title": "noytpremium",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "inline_source_code": True,
+        "description": "<p>Remove YouTube Premium upsells.</p>"
+    },
+    {
+        "file": "noytmpremium",
+        "title": "noytmpremium",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "inline_source_code": True,
+        "description": "<p>Remove YouTube Music Premium upsell elements (banner, alerts, tab item).</p>"
+    },
+    {
+        "file": "youremembercaption",
+        "title": "youremembercaption",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "inline_source_code": True,
+        "description": "<p>Make YouTube remember your video caption setting, if not already.</p>"
+    },
+    {
+        "file": "ytnochecklocalnetwork",
+        "title": "YTNoCheckLocalNetwork",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "inline_source_code": True,
+        "screenshots": True,
+        "description": "<p>Remove Local Network permission check in YouTube app.</p>"
+    },
+    {
+        "file": "ytnopaidpromo",
+        "title": "YTNoPaidPromo",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "description": "<p>Remove \"Include paid promotion\" banner from videos on YouTube app.\
+            <a href=\"https://www.youtube.com/watch?v=FxyW7Gp9Jd4\">What is paid promotion?</a></p>"
+    },
+    {
+        "file": "ytabconfig",
+        "title": "YTABConfig",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "description": "<p>YouTube usually implements a feature as an experiment. You may get to see it while others don't, and vice-versa.\
+            This tweak adds a new section named \"A/B\" in the app settings where all features can be toggled freely by you.\
+            There are over 1000 features available. Some of them are already overriden by tweaks like YTABGoodies and its predecessors.</p>",
+        "changes": [
+            ["1.5.0", [
+                    "Tap on each A/B setting to reveal its class, copy it to clipboard or delete itself from the modified list",
+                    "Fixed \"View modified settings\" showing outdated settings"
+                ]
+            ],
+            ["1.4.7", [
+                    "Minor optimizations",
+                    "Updated ja, pt, zh_cn localization"
+                ]
+            ],
+            ["1.4.6", [
+                    "Modified settings are now suffixed with \"*\"",
+                    "Search feature is now available only if grouped settings is disabled"
+                ]
+            ],
+            ["1.4.5-4", "Added zh_cn localization, Updated ar, tr, ru, zh_tw localization"],
+            ["1.4.5", [
+                    "Confirmation alert will now show if you perform an action that requires quitting app",
+                    "Added hu, ru localization"
+                ]
+            ],
+            ["1.4.4", [
+                    "Added support for YouTube 16.42.3 and lower",
+                    "Added search functionality (credits to @level3tjg)",
+                    "Added \"Group settings by prefixes\" option",
+                    "Optimized the existence check of modified settings",
+                    "Display \"Copied to clipboard\" alert also when modified settings are copied",
+                    "For long-named settings on iPhone, the non-truncated version will display",
+                    "Added ar, ja, ko, pt, vi, zh_tw localization"
+                ]
+            ],
+            ["1.3.0", [
+                    "Categorize feature flags into short prefixes for easier navigation",
+                    "Supports localization"
+                ]
+            ],
+            ["1.2.2", "Filtered out irrelevant features starting with amsterdam and unplugged"],
+            ["1.2.1", "Added settings from YTGlobalConfig class"],
+            ["1.2.0", [
+                    "Breaking: Changed setting key format to \"YTABC.[Class].[Method]\" for future expansion but this also means you have to re-set your changes again",
+                    "Reduced memory footprint"
+                ]
+            ],
+            ["1.1.0", "Added \"View modified settings\" and \"Copy current settings\" options"]
+        ]
+    },
+    {
+        "file": "ytabgoodies",
+        "title": "YTABGoodies",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "inline_source_code": True,
+        "description": "<p>YouTube usually implements a feature as an experiment. You may get to see it while others don't, and vice-versa.\
+            This tweak enables or disables those features in a way useful to you.\
+            This replaces the following tweaks:</p>",
+        "extra_content": "<ul>\
+                <li><a href=\"{}\">YouAreThere</a></li>\
+                <li><a href=\"{}\">YouRememberCaption</a></li>\
+                <li><a href=\"{}\">YTNoCheckLocalNetwork</a></li>\
+                <li><a href=\"{}\">YTSystemAppearance</a></li>\
+            </ul>".format(
+                tweak_url("youarethere"),
+                tweak_url("youremembercaption"),
+                tweak_url("ytnochecklocalnetwork"),
+                tweak_url("ytsystemappearance")
+        ),
+        "changes": [
+            ["1.0.4", "Enabled video zoom in/out feature"],
+            ["1.0.2", "Enabled changing video quality on AirPlay"],
+            ["1.0.1", "Removed unused slices"]
+        ]
+    },
+    {
+        "file": "ytautofullscreen",
+        "title": "YTAutoFullScreen",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "description": "<p>Make your video full-screen on playing.</p>",
+        "changes": [
+            ["1.0.3", "Fixed possible crash in some cases credits to @bakedpotato191"]
+        ]
+    },
+    {
+        "file": "ytsilentvote",
+        "title": "YTSilentVote",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "description": "<p>Remove popup when you like/dislike videos; those saying you liked the video and feedback shared with the creator.</p>"
+    },
+    {
+        "file": "youmute",
+        "title": "YouMute",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "description": "<p>Add a mute button to the video overlay where you can directly mute or unmute the video.</p>",
+        "changes": [
+            ["1.1.0", "Added setting page, allowing you to toggle tweak and change mute button position"]
+        ]
+    },
+    {
+        "file": "ytx",
+        "title": "YouTube X",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "description": "<p>No ads and background playback for iOS YouTube app.</p>"
+    },
+]
