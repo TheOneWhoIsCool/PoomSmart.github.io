@@ -153,7 +153,7 @@ emoji = [
         "min_ios": "6.0",
         "screenshots": True,
         "changes": [
-            ["14.0.3", "Optimizing PNG images further with oxipng"]
+            ["14.0.4", "Theme 00a9 and 00ae emojis"]
         ],
         "description": "<p>Twitter Twemoji emoji font for EmojiFontManager (Unicode 14.0).</p>"
     },
@@ -163,7 +163,7 @@ emoji = [
         "min_ios": "6.0",
         "screenshots": True,
         "changes": [
-            ["14.0.3", "Optimizing PNG images further with oxipng"]
+            ["14.0.4", "Theme 00a9 and 00ae emojis"]
         ],
         "description": "<p>Google Noto Color emoji font for EmojiFontManager (Unicode 14.0).</p><br/>\
             <p>Refer to <a href=\"https://github.com/googlefonts/noto-emoji/blob/main/LICENSE\">here</a> for licensing.</p>"
@@ -174,7 +174,7 @@ emoji = [
         "min_ios": "6.0",
         "screenshots": True,
         "changes": [
-            ["14.0.4", "Optimizing PNG images further with oxipng, Added missing hair emojis"]
+            ["14.0.5", "Theme 00a9 and 00ae emojis"]
         ],
         "description": "<p>Facebook emoji font for EmojiFontManager (Unicode 14.0).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
@@ -186,7 +186,7 @@ emoji = [
         "min_ios": "6.0",
         "screenshots": True,
         "changes": [
-            ["14.0.4", "Optimizing PNG images further with oxipng"]
+            ["14.0.5", "Theme 00a9 and 00ae emojis"]
         ],
         "description": "<p>JoyPixels 7.0.1 emoji font for EmojiFontManager (Unicode 14.0).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p>"
@@ -197,7 +197,7 @@ emoji = [
         "min_ios": "6.0",
         "screenshots": True,
         "changes": [
-            ["14.0.4", "Optimizing PNG images further with oxipng"]
+            ["14.0.5", "Theme 00a9 and 00ae emojis"]
         ],
         "description": "<p>JoyPixels 7.0.1 emoji font (with Decal) for EmojiFontManager (Unicode 14.0).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p>"
@@ -208,7 +208,7 @@ emoji = [
         "min_ios": "6.0",
         "screenshots": True,
         "changes": [
-            ["14.0.4", "Optimizing PNG images further with oxipng"]
+            ["14.0.5", "Theme 00a9 and 00ae emojis"]
         ],
         "description": "<p>Windows 11 FluentUI emoji font for EmojiFontManager (Unicode 14.0).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p>"
@@ -231,7 +231,7 @@ emoji = [
         "min_ios": "6.0",
         "screenshots": True,
         "changes": [
-            ["14.0.3", "Optimizing PNG images further with oxipng"]
+            ["14.0.4", "Theme 00a9 and 00ae emojis"]
         ],
         "description": "<p>OpenMoji emoji font for EmojiFontManager (Unicode 14.0).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\

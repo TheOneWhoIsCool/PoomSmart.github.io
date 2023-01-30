@@ -1199,15 +1199,15 @@ Name: ExpandlessCamControls
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/expandlesscamcontrols.json
 
 Package: com.ps.fbemojiefm
-Version: 14.0.4
+Version: 14.0.5
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 29976
-Filename: ./debs/emojifont/com.ps.fbemojiefm_14.0.4_iphoneos-arm.deb
-Size: 25004410
-MD5sum: c4a91771213a5e22259bd7c4bad2e6eb
-SHA1: 5dcca8ff00f04e979d59ea99daf0ca0095e747e9
-SHA256: a520f28aa2769a7c83f4fb2f23df19120a483b56176dfd4ac92c69cb0634cbc2
+Installed-Size: 29772
+Filename: ./debs/emojifont/com.ps.fbemojiefm_14.0.5_iphoneos-arm.deb
+Size: 24870528
+MD5sum: 9b938e049fcca117dfce9caf057660f9
+SHA1: 385e75c6782ab0d2739b8ac082c880b85d52084d
+SHA256: 8a2b403ea2e743c96a07a61e09a9ae801a53c531b8043a4d9ba41160f733bbc9
 Section: Fonts (EFM)
 Description: Unicode 14.0 Facebook Emoji (EFM)
 Author: PoomSmart
@@ -1232,15 +1232,15 @@ Author: PoomSmart
 Name: FLEXible Flipswitch
 
 Package: com.ps.fluentuicolorefm
-Version: 14.0.4
+Version: 14.0.5
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 27448
-Filename: ./debs/emojifont/com.ps.fluentuicolorefm_14.0.4_iphoneos-arm.deb
-Size: 22354734
-MD5sum: f5ef9957509f17368e40b6f5fe4ef6b3
-SHA1: 8774b69575b942ead407e6d027e3c86bb4d54a88
-SHA256: b73a71f194a60c8cfc935c770483776891410fb7b4d6bce5005a4890f9b270a1
+Installed-Size: 27116
+Filename: ./debs/emojifont/com.ps.fluentuicolorefm_14.0.5_iphoneos-arm.deb
+Size: 22315862
+MD5sum: b41a6155b80c4952a21c67f33d813382
+SHA1: 54ab2274a0347f1aada2bb54c8666ba4e439dec7
+SHA256: a02f9147ebfd95354cb58a8773857f0a1ad3eb4ffde1737a35a176797babb081
 Section: Fonts (EFM)
 Description: Unicode 14.0 FluentUI Color Emoji (Windows 11) (EFM)
 Author: PoomSmart
@@ -1249,15 +1249,15 @@ Name: FluentUI Color Unicode 14.0 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/fluentuiefm.json
 
 Package: com.ps.fluentuiflatefm
-Version: 14.0.4
+Version: 14.0.5
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 21628
-Filename: ./debs/emojifont/com.ps.fluentuiflatefm_14.0.4_iphoneos-arm.deb
-Size: 16015814
-MD5sum: 1e8f81f1b59cdb2bee95a31db972625b
-SHA1: 760d6b35c991e34a21878193146ae9e4af9382aa
-SHA256: 5f70cd763b56622eda9b6c3764a4af6f037d71b3900feba89d6aad208b630ee5
+Installed-Size: 21432
+Filename: ./debs/emojifont/com.ps.fluentuiflatefm_14.0.5_iphoneos-arm.deb
+Size: 15872050
+MD5sum: c2c9753dcd82d84fc987d929da8a43f4
+SHA1: 5a0e9f40986179ec304cecb6d95aabfcd72797c1
+SHA256: ab568c3a102c21960a18fc259d6f8ebd3de0359f4b131b065a5025ea6612a9d3
 Section: Fonts (EFM)
 Description: Unicode 14.0 FluentUI Flat Emoji (Windows 11) (EFM)
 Author: PoomSmart
@@ -1442,15 +1442,15 @@ Name: Injection Foundation
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/injectionfoundation.json
 
 Package: com.ps.joypixelsdecalefm
-Version: 14.0.4
+Version: 14.0.5
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 32032
-Filename: ./debs/emojifont/com.ps.joypixelsdecalefm_14.0.4_iphoneos-arm.deb
-Size: 24837952
-MD5sum: a70e6339e256cd6e46c40ca6c096e97e
-SHA1: 94ee05393133189531682632f567e57671e9c80b
-SHA256: 140c4eab74f26f53ca1d1441048997ac1b9d1c476922bffebecf9dcf51115910
+Installed-Size: 32044
+Filename: ./debs/emojifont/com.ps.joypixelsdecalefm_14.0.5_iphoneos-arm.deb
+Size: 24798874
+MD5sum: 3680b0b67c665caaa6cf04a1fefcd6de
+SHA1: 5a9288c41c30a1a15c96ae7b19c39edba4046e3b
+SHA256: b783879fe5cc8f9aa6ac0038274f9c4fa857eb28b0e43b1e1b8bd35cb4a9ce13
 Section: Fonts (EFM)
 Description: Unicode 14.0 JoyPixels 7.0.1 Emoji (with Decal) (EFM)
 Author: PoomSmart
@@ -1459,18 +1459,18 @@ Name: JoyPixels Decal Unicode 14.0 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/joypixelsdecalefm.json
 
 Package: com.ps.joypixelsefm
-Version: 14.0.4
+Version: 14.0.5
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 28052
+Installed-Size: 28068
 Conflicts: com.ps-vxbakerxv.joypixelsefm
 Replaces: com.ps-vxbakerxv.joypixelsefm
 Provides: com.ps-vxbakerxv.joypixelsefm
-Filename: ./debs/emojifont/com.ps.joypixelsefm_14.0.4_iphoneos-arm.deb
-Size: 22002838
-MD5sum: 455c52d81b85cf77ee8f96fdf40877ff
-SHA1: 2011307db6e3adcbad0fabdcbb75250ba129d52e
-SHA256: 4f5de2a720d43ae739bec08bc4ef6a241b1e5d1a48f6c0047f343fa2b55fcb5c
+Filename: ./debs/emojifont/com.ps.joypixelsefm_14.0.5_iphoneos-arm.deb
+Size: 22042650
+MD5sum: c5b83d43c7a542a73d5636a2612c0cf6
+SHA1: 5c0903bd999a102836c3e67fb24fc49c1f4870db
+SHA256: 310d1343e7891b212a9b42e88e1fc00ff225099cbdfc0a42dbf21ce42b1c93b4
 Section: Fonts (EFM)
 Description: Unicode 14.0 JoyPixels 7.0.1 Emoji (EFM)
 Author: PoomSmart
@@ -1607,15 +1607,15 @@ Author: PoomSmart
 Name: MyWi Flipswitch
 
 Package: com.ps.notoemojiefm
-Version: 14.0.3
+Version: 14.0.4
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 30992
-Filename: ./debs/emojifont/com.ps.notoemojiefm_14.0.3_iphoneos-arm.deb
-Size: 25211506
-MD5sum: a351a06e87935e0aa1bff30778ad0c43
-SHA1: 31506647093a8681b13115b8386a86c608aeed30
-SHA256: a5f849066df31395a64f5110ba88eb7b56047b6a8f35af85dbfc4e3cf61d5167
+Installed-Size: 30964
+Filename: ./debs/emojifont/com.ps.notoemojiefm_14.0.4_iphoneos-arm.deb
+Size: 25191062
+MD5sum: c86cffbf7b31b287899b71c65f447e5b
+SHA1: be05a0f945c58084ddd70fc12b08aea22a289e66
+SHA256: fb770ce5594918f93a62753bdaacb21ed581e8fa788bd6b3f09812077c4a421f
 Section: Fonts (EFM)
 Description: Unicode 14.0 Google Noto Color Emoji (EFM)
 Author: PoomSmart
@@ -1695,15 +1695,15 @@ Name: Samsung One UI 5.0 Unicode 14.0 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/oneuiefm.json
 
 Package: com.ps.openmojiefm
-Version: 14.0.3
+Version: 14.0.4
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 21520
-Filename: ./debs/emojifont/com.ps.openmojiefm_14.0.3_iphoneos-arm.deb
-Size: 15519774
-MD5sum: bdd5d161b76b50be57e75c6745f18eff
-SHA1: 9acc91530c6bedae60410a7c66edf8663c35dc47
-SHA256: b9843562b42cbfd08d58bc0717e5137b151a6a68056c84126240075d12f85eac
+Installed-Size: 21356
+Filename: ./debs/emojifont/com.ps.openmojiefm_14.0.4_iphoneos-arm.deb
+Size: 15447656
+MD5sum: 6a41183c95c5e2bd01c90da5495cf245
+SHA1: 6a2029a8440523c7ffecbf07aceb5949821ce9fd
+SHA256: ba6fb7fd09eb206f4eb1275f6e978babf602c71ced58de2cf63fdf3454ff96af
 Section: Fonts (EFM)
 Description: Unicode 14.0 OpenMoji Emoji (EFM)
 Author: PoomSmart
@@ -2176,15 +2176,15 @@ Author: PoomSmart
 Name: TapVideoConfig
 
 Package: com.ps.twemojiefm
-Version: 14.0.3
+Version: 14.0.4
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 23936
-Filename: ./debs/emojifont/com.ps.twemojiefm_14.0.3_iphoneos-arm.deb
-Size: 18485784
-MD5sum: cb942675730ee5c0271b5d5546bb92bc
-SHA1: 1458f6cc501219747082c21c2f84c6026ac0d35d
-SHA256: 951800a94c7828a45d4c1924a45dbef213a8c397e5e99285c90198456fde83eb
+Installed-Size: 23820
+Filename: ./debs/emojifont/com.ps.twemojiefm_14.0.4_iphoneos-arm.deb
+Size: 18395832
+MD5sum: 9fed619706626ecfba4f85092829a66e
+SHA1: a362e1ed81771e7efdb5bd9e7771b6e1766b21dd
+SHA256: 7aee90f103eba2e2ea8b77108411821032164230e15ed1789ad8c858aaa02ed2
 Section: Fonts (EFM)
 Description: Twemoji Emoji 14.0 (Unicode 14.0) (EFM)
 Author: PoomSmart
