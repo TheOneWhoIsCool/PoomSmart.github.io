@@ -27,21 +27,6 @@ tweaks = [
         ]
     },
     {
-        "file": "emojiattributes",
-        "title": "EmojiAttributes",
-        "min_ios": "5.1",
-        "changes": [
-            ["1.6.0~b2", "Improved rootless jailbreak compatibility"],
-            ["1.6.0~b1", [
-                    "Initial rootless jailbreak support",
-                    "Corrected function finder for iOS 8.2 arm64 and similar"
-                ]
-            ],
-            ["1.5.0", "Stable version"]
-        ],
-        "description": "<p>Various under-the-hood fixes for emoji display. See <a href=\"https://github.com/PoomSmart/EmojiAttributes/blob/master/README.md\">here</a> for more information.</p>"
-    },
-    {
         "file": "letmeblock",
         "title": "LetMeBlock",
         "min_ios": "9.0",

@@ -384,6 +384,23 @@ Depiction: https://poomsmart.github.io/repo/depictions/blobmojiefm.html
 Name: Blobmoji Unicode 14.0 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/blobmojiefm.json
 
+Package: com.ps.blobmojiefm
+Version: 15.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 30700
+Filename: ./debs/emojifont/com.ps.blobmojiefm_15.0.0_iphoneos-arm.deb
+Size: 24784598
+MD5sum: 5741255738f8cbb2ac31a3f167852627
+SHA1: e617f80958301844fdbc2a286b1504d77b13f085
+SHA256: d4ea945e7583e6c4ccfb8a5920873d19d5bca41221ffd7c8581189bd577a2761
+Section: Fonts (EFM)
+Description: Unicode 15.0 Google Blobmoji (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/blobmojiefm.html
+Name: Blobmoji Unicode 15.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/blobmojiefm.json
+
 Package: com.ps.blockemall
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -689,16 +706,16 @@ Author: PoomSmart
 Name: Change Vol With Buttons Flipswitch
 
 Package: com.ps.efmfontsetter
-Version: 15.4.2
+Version: 99.0
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 0
 Depends: defaults | ws.hbang.common, com.ps.emojifontmanager, com.ps.emojifontefm
-Filename: ./debs/emojifont/com.ps.efmfontsetter_15.4.2_iphoneos-arm.deb
-Size: 694
-MD5sum: e60dd5eade631b71353f38a80510758c
-SHA1: b556893a6dd2fc8d794939210f2c69b4e9c8d03c
-SHA256: af10e0b8dff9b6fdbb39a30c3709b444ec23150276b7e0dabd5a0e51e43df4a7
+Filename: ./debs/emojifont/com.ps.efmfontsetter_99.0_iphoneos-arm.deb
+Size: 716
+MD5sum: 936ff3b379753ab4ed8a0c4bffde7941
+SHA1: 9601e271890216c7c0f8c4b6e03c95dac00372e0
+SHA256: 80a22b37e7d52a106f81e2503902705b6a1add47a7fed92ca77f2eda93aae0ed
 Section: Utilities
 Description: Apply AppleColorEmoji EFM font with a shell script.
 Author: PoomSmart
@@ -777,6 +794,25 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
 Name: EmojiAttributes
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
 
+Package: com.ps.emojiattributes
+Version: 1.7.0~b1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 628
+Depends: firmware (>= 5.1), mobilesubstrate, com.opa334.libundirect (>= 1.0)
+Conflicts: com.ps.flexmoji
+Filename: ./debs/emojiport/com.ps.emojiattributes_1.7.0~b1_iphoneos-arm.deb
+Size: 54374
+MD5sum: 8954c8cde4b8f4968a98fb22fec17dbf
+SHA1: 5feed27150d6d9efab078081cef70dddd861a0de
+SHA256: 61bb4f5a95a3eeaa9a8d91a5c4492720f8e6dc966e7147a7659d39148aa22c17
+Section: Tweaks
+Description: Various under-the-hood fixes for emoji display.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
+Name: EmojiAttributes
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
+
 Package: com.ps.emojidarkstyle
 Version: 1.0.6
 Architecture: iphoneos-arm
@@ -812,6 +848,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojifontefm.html
 Name: AppleColorEmoji Unicode 14.0 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontefm.json
 
+Package: com.ps.emojifontefm
+Version: 15.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 31844
+Depends: com.ps.emojifontmanager
+Filename: ./debs/emojifont/com.ps.emojifontefm_15.0.0_iphoneos-arm.deb
+Size: 29495946
+MD5sum: 46bfe27081b896aa9bde33a37df4c104
+SHA1: 97519ab161a5ddf88b7a9549502819ba0eff7d1e
+SHA256: ce08381c01d807a8cbc717821552577499098c60fdd010da95e1d608dea4ef2d
+Section: Fonts (EFM)
+Description: Unicode 15.0 AppleColorEmoji font (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojifontefm.html
+Name: AppleColorEmoji Unicode 15.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontefm.json
+
 Package: com.ps.emojifonthdefm
 Version: 14.0.2
 Architecture: iphoneos-arm
@@ -830,6 +884,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojifontefm.html
 Name: AppleColorEmoji Unicode 14.0 HD (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontefm.json
 
+Package: com.ps.emojifonthdefm
+Version: 15.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 59548
+Depends: com.ps.emojifontmanager
+Filename: ./debs/emojifont/com.ps.emojifonthdefm_15.0.0_iphoneos-arm.deb
+Size: 57242462
+MD5sum: 82d2531eaa5ab6631efc56ea6dc152d3
+SHA1: c2b2787789c508987ae414af8e53d659664f5ffc
+SHA256: 645a0e3bb1efbe4b0df0c5dffa4c191e4992099ebb78e73db9c45ed1820c394b
+Section: Fonts (EFM)
+Description: Unicode 15.0 AppleColorEmoji font HD (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojifontefm.html
+Name: AppleColorEmoji Unicode 15.0 HD (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontefm.json
+
 Package: com.ps.emojifontlqefm
 Version: 14.0.2
 Architecture: iphoneos-arm
@@ -842,6 +914,23 @@ SHA1: 2662935e3208d726c54326a2d5b6b69ad2a49184
 SHA256: e62cf5213494e69d9bd41f10c5e5fa3d0366eb46451de9c92b124861440ba116
 Section: Fonts (EFM)
 Description: AppleColorEmoji font but low quality (Unicode 14.0) (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojifontlqefm.html
+Name: AppleColorEmoji Low Quality (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontlqefm.json
+
+Package: com.ps.emojifontlqefm
+Version: 15.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 8944
+Filename: ./debs/emojifont/com.ps.emojifontlqefm_15.0.0_iphoneos-arm.deb
+Size: 7385628
+MD5sum: 4211c9d4b2666df2110b4cc87dc72ab9
+SHA1: b0a84a0d828d520b0278199b4d47a85214fed62c
+SHA256: 9179fee8a82e53477e8cbe2636ed514b290f590ab1fd73c4e81ac166f9a506a8
+Section: Fonts (EFM)
+Description: AppleColorEmoji font but low quality (Unicode 15.0) (EFM)
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/emojifontlqefm.html
 Name: AppleColorEmoji Low Quality (EFM)
@@ -938,6 +1027,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
 Name: EmojiLibrary
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
 
+Package: com.ps.emojilibrary
+Version: 1.5.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 680
+Filename: ./debs/emojiport/com.ps.emojilibrary_1.5.0_iphoneos-arm.deb
+Size: 92538
+MD5sum: 019956ef4e23cbac3b8e2910c9f773c5
+SHA1: 98a7f8253fa57ce0005d8d8efb113f297f4f77cd
+SHA256: 19033e58576269a5f873c6d83d81387849c52e1247adbe2028fa370c0ea036f8
+Section: Development
+Description: Master library for PoomSmart's emoji tweaks.
+Tag: role::developer
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
+Name: EmojiLibrary
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
+
 Package: com.ps.emojilocalization
 Version: 1.1.2
 Architecture: iphoneos-arm
@@ -956,24 +1063,6 @@ Author: PoomSmart
 Name: EmojiLocalization
 
 Package: com.ps.emojiport10resources
-Version: 1.3.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 123016
-Depends: firmware (>= 10.0)
-Filename: ./debs/emojiport/com.ps.emojiport10resources_1.3.1_iphoneos-arm.deb
-Size: 30700250
-MD5sum: 378843270f6d12e1aeb56359d5b62885
-SHA1: f04ef268017e8f11e776c5f1a969a51eec56997b
-SHA256: 9da6402395575c9a1199b11b6bf4e9252909cb67b54f98c326d18411f9038720
-Section: Tweaks
-Description: Latest emoji localization and metadata for iOS 10+
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport10resources.html
-Name: EmojiPort Resources (iOS 10+)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport10resources.json
-
-Package: com.ps.emojiport10resources
 Version: 1.3.2
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -984,6 +1073,24 @@ Size: 30685034
 MD5sum: dad5b7683c3b4346abbc4b76bc4b3656
 SHA1: 2f836dd1b9d770bd299f2b665d11ea3b42028e37
 SHA256: 8cbd40fe8101d88dde44b8dd21ba4c0204e9e97ab75540c6fdaae99d4e06eb22
+Section: Tweaks
+Description: Latest emoji localization and metadata for iOS 10+
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport10resources.html
+Name: EmojiPort Resources (iOS 10+)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport10resources.json
+
+Package: com.ps.emojiport10resources
+Version: 1.4.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 192772
+Depends: firmware (>= 10.0)
+Filename: ./debs/emojiport/com.ps.emojiport10resources_1.4.0_iphoneos-arm.deb
+Size: 45008642
+MD5sum: fbde11b954865f16ba5ea88ba918effb
+SHA1: 27b0da6166e28eb7dfc539fb73ff232903b18da1
+SHA256: 9c02ab3363d20c6927cfbec6e4e814721d8dfdb2c01f01f5c58d68f00a009dfa
 Section: Tweaks
 Description: Latest emoji localization and metadata for iOS 10+
 Author: PoomSmart
@@ -1621,6 +1728,23 @@ Description: Unicode 14.0 Google Noto Color Emoji (EFM)
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/notoemojiefm.html
 Name: Noto Color Emoji Unicode 14.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/notoemojiefm.json
+
+Package: com.ps.notoemojiefm
+Version: 15.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 30924
+Filename: ./debs/emojifont/com.ps.notoemojiefm_15.0.0_iphoneos-arm.deb
+Size: 25378772
+MD5sum: 4ebda0c8237339c7ee3b49944ec53623
+SHA1: 31fc5458efa130f0c2beab7f06025db1575ba89e
+SHA256: 1ae7c8297681246d2f86fd7aaf6776f5818d882fe6339b2fe0cab99cbc7e6998
+Section: Fonts (EFM)
+Description: Unicode 15.0 Google Noto Color Emoji (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/notoemojiefm.html
+Name: Noto Color Emoji Unicode 15.0 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/notoemojiefm.json
 
 Package: com.ps.nottodayhomescreensidebar

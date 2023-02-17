@@ -4,10 +4,26 @@ emoji = [
         "title": "emojiport10resources",
         "min_ios": "10.0",
         "changes": [
-            ["1.3.2", "Updated to iOS 16 assets"],
-            ["1.3.1", "Updated to iOS 15.5 assets"]
+            ["1.4.0", "Updated to iOS 16.4 beta assets"],
+            ["1.3.2", "Updated to iOS 16 assets"]
         ],
         "description": "<p>Up-to-date emoji assets (bitmap, localization, metadata) specific to iOS 10 and above.</p>"
+    },
+    {
+        "file": "emojiattributes",
+        "title": "EmojiAttributes",
+        "min_ios": "5.1",
+        "changes": [
+            ["1.7.0~b1", "Initial support for iOS 16.4 beta emojis"],
+            ["1.6.0~b2", "Improved rootless jailbreak compatibility"],
+            ["1.6.0~b1", [
+                    "Initial rootless jailbreak support",
+                    "Corrected function finder for iOS 8.2 arm64 and similar"
+                ]
+            ],
+            ["1.5.0", "Stable version"]
+        ],
+        "description": "<p>Various under-the-hood fixes for emoji display. See <a href=\"https://github.com/PoomSmart/EmojiAttributes/blob/master/README.md\">here</a> for more information.</p>"
     },
     {
         "file": "emojifontmanager",
@@ -41,6 +57,7 @@ emoji = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
+            ["1.5.0", "iOS 16.4 beta emojis support"],
             ["1.4.0", "iOS 15.4 emojis support"]
         ],
         "description": "<p>EmojiLibrary is a developer library, and the master library for most of PoomSmart's Emoji tweaks, including\
@@ -124,16 +141,17 @@ emoji = [
     },
     {
         "file": "emojifontefm",
-        "title": "AppleColorEmoji Unicode 14.0 (EFM)",
+        "title": "AppleColorEmoji Unicode 15.0 (EFM)",
         "min_ios": "6.0",
         "changes": [
+            ["15.0.0", "Updated to Unicode 15.0"],
             ["14.0.2", "Optimizing PNG images further with oxipng"],
             ["14.0.1", "Renamed font to AppleColorEmoji"],
             ["1.3.0", "Regular version: Support SoftBank codepoints, Keep only emoji of sizes 96x96, 64x64 and 40x40, same as native"]
         ],
-        "description": "<p>Unicode 14.0 (iOS 15.4) Apple's AppleColorEmoji font for EmojiFontManager.</p><br/>\
+        "description": "<p>Unicode 15.0 (iOS 16.4) Apple's AppleColorEmoji font for EmojiFontManager.</p><br/>\
             <p>Regular version of this font has all emoji images in PNG format and better compressed than Apple's EMJC image compression.</p><br/>\
-            <p>HD version of this font includes additional 160x160 PNG emoji images. They work best if you usually want to see emojis in large size.</p>"
+            <p>HD version of this font includes additional 160x160 PNG emoji images. They work best if you like large emojis.</p>"
     },
     {
         "file": "emojifontlqefm",
@@ -141,6 +159,7 @@ emoji = [
         "min_ios": "6.0",
         "screenshots": True,
         "changes": [
+            ["15.0.0", "Updated to Unicode 15.0"],
             ["14.0.2", "Optimizing PNG images further with oxipng"]
         ],
         "description": "<p>It's your usual AppleColorEmoji font but low quality. But Why? To save you some disk space? To improve your device performance? To show off your friends?</p><br/>\
@@ -159,13 +178,14 @@ emoji = [
     },
     {
         "file": "notoemojiefm",
-        "title": "Noto Color Emoji Unicode 14.0 (EFM)",
+        "title": "Noto Color Emoji Unicode 15.0 (EFM)",
         "min_ios": "6.0",
         "screenshots": True,
         "changes": [
+            ["15.0.0", "Updated to Unicode 15.0"],
             ["14.0.4", "Theme 00a9 and 00ae emojis"]
         ],
-        "description": "<p>Google Noto Color emoji font for EmojiFontManager (Unicode 14.0).</p><br/>\
+        "description": "<p>Google Noto Color emoji font for EmojiFontManager (Unicode 15.0).</p><br/>\
             <p>Refer to <a href=\"https://github.com/googlefonts/noto-emoji/blob/main/LICENSE\">here</a> for licensing.</p>"
     },
     {
@@ -189,7 +209,8 @@ emoji = [
             ["14.0.5", "Theme 00a9 and 00ae emojis"]
         ],
         "description": "<p>JoyPixels 7.0.1 emoji font for EmojiFontManager (Unicode 14.0).</p><br/>\
-            <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p>"
+            <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
+            <p>Refer to <a href=\"https://joypixels.com/licenses/free\">here</a> for licensing.</p>"
     },
     {
         "file": "joypixelsdecalefm",
@@ -200,7 +221,8 @@ emoji = [
             ["14.0.5", "Theme 00a9 and 00ae emojis"]
         ],
         "description": "<p>JoyPixels 7.0.1 emoji font (with Decal) for EmojiFontManager (Unicode 14.0).</p><br/>\
-            <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p>"
+            <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
+            <p>Refer to <a href=\"https://joypixels.com/licenses/free\">here</a> for licensing.</p>"
     },
     {
         "file": "fluentuiefm",
@@ -215,13 +237,14 @@ emoji = [
     },
     {
         "file": "blobmojiefm",
-        "title": "Blobmoji Unicode 14.0 (EFM)",
+        "title": "Blobmoji Unicode 15.0 (EFM)",
         "min_ios": "6.0",
         "screenshots": True,
         "changes": [
+            ["15.0.0", "Updated to Unicode 15.0"],
             ["14.0.3", "Optimizing PNG images further with oxipng"]
         ],
-        "description": "<p>Blobmoji emoji font (Blobified version of Google Noto Emoji) for EmojiFontManager (Unicode 14.0).</p><br/>\
+        "description": "<p>Blobmoji emoji font (Blobified version of Google Noto Emoji) for EmojiFontManager (Unicode 15.0).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
             <p>Refer to <a href=\"https://github.com/C1710/blobmoji/blob/main/LICENSE\">here</a> for licensing.</p>"
     },
