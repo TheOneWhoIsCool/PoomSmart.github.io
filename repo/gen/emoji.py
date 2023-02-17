@@ -117,17 +117,18 @@ emoji = [
     },
     {
         "file": "emojiport_12",
-        "title": "EmojiPort (iOS 12.0 - 15.3)",
+        "title": "EmojiPort (iOS 12.0 - 16.3)",
         "min_ios": "12.0",
-        "max_ios": "15.3.1",
+        "max_ios": "16.3.1",
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
+            ["1.4.0", "Allow installation on iOS 15.4 - iOS 16.3"],
             ["1.3.0~b3", "Improved rootless jailbreak compatibility"],
             ["1.3.0~b2", "Allow installation on iOS 15.0 - 15.3.1"],
             ["1.2.5", "Added missing hook for search engine override lists"]
         ],
-        "description": "<p>Latest emojis for iOS 12.0 - 15.3.1</p>\
+        "description": "<p>Latest emojis for iOS 12.0 - 16.3.1</p>\
             <p><a href=\"https://poomsmart.github.io/emojiport\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
     },
     {

@@ -1193,6 +1193,25 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
 Name: EmojiPort (iOS 12.0-15.3)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
 
+Package: com.ps.emojiportpe
+Version: 1.4.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 304
+Depends: firmware (>= 12.0), firmware (<< 16.4), com.ps.emojiattributes (>= 1.7.0~b1), com.ps.emojilibrary (>= 1.5.0), com.ps.emojiport10resources (>= 1.4.0)
+Filename: ./debs/emojiport/com.ps.emojiportpe_1.4.0_iphoneos-arm.deb
+Size: 17330
+MD5sum: 3553f8416e1ced54ebb358d6cf3baf78
+SHA1: a9ffbafa75faa265a7b484fe944128c838c3bf58
+SHA256: db62e15a10b2518e2f91b2c6ee84c5edd9e71777f48305dae363f229d1e2db1a
+Section: Tweaks
+Description: Latest emojis for iOS 12.0-16.3
+Tag: compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
+Name: EmojiPort (iOS 12.0-16.3)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
+
 Package: com.ps.emojiportps
 Version: 1.7.0
 Architecture: iphoneos-arm
