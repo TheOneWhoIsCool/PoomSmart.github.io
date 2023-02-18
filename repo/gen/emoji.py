@@ -15,6 +15,11 @@ emoji = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
+            ["1.7.0~b2", [
+                    "Fixed installation issue on readonly filesystems devices",
+                    "Fixed new emojis displayed as ? on iOS 10 and lower"
+                ]
+            ],
             ["1.7.0~b1", "Initial support for iOS 16.4 beta emojis"],
             ["1.6.0~b2", "Improved rootless jailbreak compatibility"],
             ["1.6.0~b1", [
