@@ -129,6 +129,7 @@ emoji = [
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
+            ["1.4.1", "Fixed app crash on rootful palera1n devices"],
             ["1.4.0", "Allow installation on iOS 15.4 - 16.3.1"],
             ["1.3.0~b3", "Improved rootless jailbreak compatibility"],
             ["1.3.0~b2", "Allow installation on iOS 15.0 - 15.3.1"],
