@@ -4,6 +4,7 @@ emoji = [
         "title": "emojiport10resources",
         "min_ios": "10.0",
         "changes": [
+            ["1.4.1", "Added missing emoji.bitmap"],
             ["1.4.0", "Updated to iOS 16.4 beta assets"],
             ["1.3.2", "Updated to iOS 16 assets"]
         ],
