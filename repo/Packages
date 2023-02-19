@@ -1804,6 +1804,23 @@ Depiction: https://poomsmart.github.io/repo/depictions/notoemojiefm.html
 Name: Noto Color Emoji Unicode 15.0 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/notoemojiefm.json
 
+Package: com.ps.notoemojiefm
+Version: 15.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 42076
+Filename: ./debs/emojifont/com.ps.notoemojiefm_15.0.1_iphoneos-arm.deb
+Size: 34245596
+MD5sum: db4239dcdf8e402f5417503e5c7c51fa
+SHA1: 5e6207f9e5b8308af6f23cb7e4f9f7c3ddc6b9fd
+SHA256: 41e7b4da6cb3368f09aa48a99ca3091882d3501543f7f8da630ea78f9faf6302
+Section: Fonts (EFM)
+Description: Unicode 15.0 Google Noto Color Emoji (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/notoemojiefm.html
+Name: Noto Color Emoji Unicode 15.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/notoemojiefm.json
+
 Package: com.ps.nottodayhomescreensidebar
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -2372,6 +2389,23 @@ Description: Change video configuration directly in Camera app.
 Tag: compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
 Author: PoomSmart
 Name: TapVideoConfig
+
+Package: com.ps.tossfaceefm
+Version: 14.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 20456
+Filename: ./debs/emojifont/com.ps.tossfaceefm_14.0.0_iphoneos-arm.deb
+Size: 14643354
+MD5sum: 41131250ed9b0aa572891f32369cbc36
+SHA1: 2c88dc9478a01563c83c22ed68de991314474c78
+SHA256: 79977bba71185db1a11ebee72a0b59fd4080ecad8b10b8792d527974f1995ec1
+Section: Fonts (EFM)
+Description: Toss Face Emoji Unicode 14.0 (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/tossfaceefm.html
+Name: Toss Face Unicode 14.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/tossfaceefm.json
 
 Package: com.ps.twemojiefm
 Version: 14.0.4

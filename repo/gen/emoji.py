@@ -173,24 +173,16 @@ emoji = [
             <p>Unicode version will be in sync with the regular Apple emoji font.</p>"
     },
     {
-        "file": "twemojiefm",
-        "title": "Twemoji Unicode 14.0 (EFM)",
-        "screenshots": True,
-        "changes": [
-            ["14.0.4", "Theme 00a9 and 00ae emojis"]
-        ],
-        "description": "<p>Twitter Twemoji emoji font for EmojiFontManager (Unicode 14.0).</p>"
-    },
-    {
-        "file": "notoemojiefm",
-        "title": "Noto Color Emoji Unicode 15.0 (EFM)",
+        "file": "blobmojiefm",
+        "title": "Blobmoji Unicode 15.0 (EFM)",
         "screenshots": True,
         "changes": [
             ["15.0.0", "Updated to Unicode 15.0"],
-            ["14.0.4", "Theme 00a9 and 00ae emojis"]
+            ["14.0.3", "Optimizing PNG images further with oxipng"]
         ],
-        "description": "<p>Google Noto Color emoji font for EmojiFontManager (Unicode 15.0).</p><br/>\
-            <p>Refer to <a href=\"https://github.com/googlefonts/noto-emoji/blob/main/LICENSE\">here</a> for licensing.</p>"
+        "description": "<p>Blobmoji emoji font (Blobified version of Google Noto Emoji) for EmojiFontManager (Unicode 15.0).</p><br/>\
+            <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
+            <p>Refer to <a href=\"https://github.com/C1710/blobmoji/blob/main/LICENSE\">here</a> for licensing.</p>"
     },
     {
         "file": "fbemojiefm",
@@ -202,6 +194,16 @@ emoji = [
         "description": "<p>Facebook emoji font for EmojiFontManager (Unicode 14.0).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
             <p>Refer to <a href=\"https://github.com/iamcal/emoji-data\">here</a> for licensing.</p>"
+    },
+    {
+        "file": "fluentuiefm",
+        "title": "FluentUI Emoji Unicode 14.0 (EFM)",
+        "screenshots": True,
+        "changes": [
+            ["14.0.5", "Theme 00a9 and 00ae emojis"]
+        ],
+        "description": "<p>Windows 11 FluentUI emoji font for EmojiFontManager (Unicode 14.0).</p><br/>\
+            <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p>"
     },
     {
         "file": "joypixelsefm",
@@ -226,26 +228,16 @@ emoji = [
             <p>Refer to <a href=\"https://joypixels.com/licenses/free\">here</a> for licensing.</p>"
     },
     {
-        "file": "fluentuiefm",
-        "title": "FluentUI Emoji Unicode 14.0 (EFM)",
+        "file": "notoemojiefm",
+        "title": "Noto Color Emoji Unicode 15.0 (EFM)",
         "screenshots": True,
         "changes": [
-            ["14.0.5", "Theme 00a9 and 00ae emojis"]
-        ],
-        "description": "<p>Windows 11 FluentUI emoji font for EmojiFontManager (Unicode 14.0).</p><br/>\
-            <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p>"
-    },
-    {
-        "file": "blobmojiefm",
-        "title": "Blobmoji Unicode 15.0 (EFM)",
-        "screenshots": True,
-        "changes": [
+            ["15.0.1", "Included 160x160 PNG images by default"],
             ["15.0.0", "Updated to Unicode 15.0"],
-            ["14.0.3", "Optimizing PNG images further with oxipng"]
+            ["14.0.4", "Theme 00a9 and 00ae emojis"]
         ],
-        "description": "<p>Blobmoji emoji font (Blobified version of Google Noto Emoji) for EmojiFontManager (Unicode 15.0).</p><br/>\
-            <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
-            <p>Refer to <a href=\"https://github.com/C1710/blobmoji/blob/main/LICENSE\">here</a> for licensing.</p>"
+        "description": "<p>Google Noto Color emoji font for EmojiFontManager (Unicode 15.0).</p><br/>\
+            <p>Refer to <a href=\"https://github.com/googlefonts/noto-emoji/blob/main/LICENSE\">here</a> for licensing.</p>"
     },
     {
         "file": "openmojiefm",
@@ -268,6 +260,23 @@ emoji = [
         ],
         "description": "<p>Samsung One UI 5.0 emoji font for EmojiFontManager (Unicode 15.0).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p>"
+    },
+    {
+        "file": "tossfaceefm",
+        "title": "Toss Face Unicode 14.0 (EFM)",
+        "screenshots": True,
+        "description": "<p>Toss Face (토스페이스) emoji font for EmojiFontManager (Unicode 14.0).</p><br/>\
+            <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
+            <p>Refer to <a href=\"https://toss.im/tossface\">here</a> for licensing.</p>"
+    },
+    {
+        "file": "twemojiefm",
+        "title": "Twemoji Unicode 14.0 (EFM)",
+        "screenshots": True,
+        "changes": [
+            ["14.0.4", "Theme 00a9 and 00ae emojis"]
+        ],
+        "description": "<p>Twitter Twemoji emoji font for EmojiFontManager (Unicode 14.0).</p>"
     },
     {
         "file": "whatsappefm",
