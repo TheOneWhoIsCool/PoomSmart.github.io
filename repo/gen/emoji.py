@@ -135,7 +135,7 @@ emoji = [
             ["1.3.0~b2", "Allow installation on iOS 15.0 - 15.3.1"],
             ["1.2.5", "Added missing hook for search engine override lists"]
         ],
-        "description": "<p>Latest emojis for iOS 12.0 - 16.3.1</p>\
+        "description": "<p>Latest emojis for iOS 12.0 - 16.3</p>\
             <p><a href=\"https://poomsmart.github.io/emojiport\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
     },
     {
@@ -150,7 +150,6 @@ emoji = [
     {
         "file": "emojifontefm",
         "title": "AppleColorEmoji Unicode 15.0 (EFM)",
-        "min_ios": "6.0",
         "changes": [
             ["15.0.0", "Updated to Unicode 15.0"],
             ["14.0.2", "Optimizing PNG images further with oxipng"],
@@ -164,7 +163,6 @@ emoji = [
     {
         "file": "emojifontlqefm",
         "title": "AppleColorEmoji Low Quality (EFM)",
-        "min_ios": "6.0",
         "screenshots": True,
         "changes": [
             ["15.0.0", "Updated to Unicode 15.0"],
@@ -177,7 +175,6 @@ emoji = [
     {
         "file": "twemojiefm",
         "title": "Twemoji Unicode 14.0 (EFM)",
-        "min_ios": "6.0",
         "screenshots": True,
         "changes": [
             ["14.0.4", "Theme 00a9 and 00ae emojis"]
@@ -187,7 +184,6 @@ emoji = [
     {
         "file": "notoemojiefm",
         "title": "Noto Color Emoji Unicode 15.0 (EFM)",
-        "min_ios": "6.0",
         "screenshots": True,
         "changes": [
             ["15.0.0", "Updated to Unicode 15.0"],
@@ -199,7 +195,6 @@ emoji = [
     {
         "file": "fbemojiefm",
         "title": "Facebook Emoji Unicode 14.0 (EFM)",
-        "min_ios": "6.0",
         "screenshots": True,
         "changes": [
             ["14.0.5", "Theme 00a9 and 00ae emojis"]
@@ -211,7 +206,6 @@ emoji = [
     {
         "file": "joypixelsefm",
         "title": "JoyPixels Emoji Unicode 14.0 (EFM)",
-        "min_ios": "6.0",
         "screenshots": True,
         "changes": [
             ["14.0.5", "Theme 00a9 and 00ae emojis"]
@@ -223,7 +217,6 @@ emoji = [
     {
         "file": "joypixelsdecalefm",
         "title": "JoyPixels Decal Emoji Unicode 14.0 (EFM)",
-        "min_ios": "6.0",
         "screenshots": True,
         "changes": [
             ["14.0.5", "Theme 00a9 and 00ae emojis"]
@@ -235,7 +228,6 @@ emoji = [
     {
         "file": "fluentuiefm",
         "title": "FluentUI Emoji Unicode 14.0 (EFM)",
-        "min_ios": "6.0",
         "screenshots": True,
         "changes": [
             ["14.0.5", "Theme 00a9 and 00ae emojis"]
@@ -246,7 +238,6 @@ emoji = [
     {
         "file": "blobmojiefm",
         "title": "Blobmoji Unicode 15.0 (EFM)",
-        "min_ios": "6.0",
         "screenshots": True,
         "changes": [
             ["15.0.0", "Updated to Unicode 15.0"],
@@ -259,7 +250,6 @@ emoji = [
     {
         "file": "openmojiefm",
         "title": "OpenMoji Unicode 14.0 (EFM)",
-        "min_ios": "6.0",
         "screenshots": True,
         "changes": [
             ["14.0.4", "Theme 00a9 and 00ae emojis"]
@@ -270,19 +260,18 @@ emoji = [
     },
     {
         "file": "oneuiefm",
-        "title": "Samsung One UI 5.0 Unicode 14.0 (EFM)",
-        "min_ios": "6.0",
+        "title": "Samsung One UI 5.0 Unicode 15.0 (EFM)",
         "screenshots": True,
         "changes": [
+            ["15.0.0", "Updated to Unicode 15.0"],
             ["14.0.3", "Optimizing PNG images further with oxipng"]
         ],
-        "description": "<p>Samsung One UI 5.0 emoji font for EmojiFontManager (Unicode 14.0).</p><br/>\
+        "description": "<p>Samsung One UI 5.0 emoji font for EmojiFontManager (Unicode 15.0).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p>"
     },
     {
         "file": "whatsappefm",
         "title": "WhatsApp Emoji Unicode 14.0 (EFM)",
-        "min_ios": "6.0",
         "screenshots": True,
         "changes": [
             ["14.0.2", "Optimizing PNG images further with oxipng"]
