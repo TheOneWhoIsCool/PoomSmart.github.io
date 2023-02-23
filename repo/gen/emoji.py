@@ -4,8 +4,7 @@ emoji = [
         "title": "emojiport10resources",
         "min_ios": "10.0",
         "changes": [
-            ["1.4.1", "Added missing emoji.bitmap"],
-            ["1.4.0", "Updated to iOS 16.4 beta assets"],
+            ["1.4.1", "Updated to iOS 16.4 beta assets"],
             ["1.3.2", "Updated to iOS 16 assets"]
         ],
         "description": "<p>Up-to-date emoji assets (bitmap, localization, metadata) specific to iOS 10 and above.</p>"
@@ -16,14 +15,13 @@ emoji = [
         "min_ios": "5.1",
         "changes": [
             ["1.7.0~b2", [
+                    "Initial support for iOS 16.4 beta emojis",
                     "Fixed installation issue on readonly filesystems devices",
                     "Fixed new emojis displayed as ? on iOS 10 and lower"
                 ]
             ],
-            ["1.7.0~b1", "Initial support for iOS 16.4 beta emojis"],
-            ["1.6.0~b2", "Improved rootless jailbreak compatibility"],
-            ["1.6.0~b1", [
-                    "Initial rootless jailbreak support",
+            ["1.6.0~b2", [
+                    "Rootless jailbreak support",
                     "Corrected function finder for iOS 8.2 arm64 and similar"
                 ]
             ],
@@ -129,10 +127,14 @@ emoji = [
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
-            ["1.4.1", "Fixed app crash on rootful palera1n devices"],
-            ["1.4.0", "Allow installation on iOS 15.4 - 16.3.1"],
-            ["1.3.0~b3", "Improved rootless jailbreak compatibility"],
-            ["1.3.0~b2", "Allow installation on iOS 15.0 - 15.3.1"],
+            ["1.4.1", [
+                "Allow installation on iOS 15.4 - 16.3.1",
+                "Fixed app crash on rootful palera1n devices"
+            ]],
+            ["1.3.0~b3", [
+                "Allow installation on iOS 15.0 - 15.3.1",
+                "Improved rootless jailbreak compatibility"
+            ]],
             ["1.2.5", "Added missing hook for search engine override lists"]
         ],
         "description": "<p>Latest emojis for iOS 12.0 - 16.3</p>\
