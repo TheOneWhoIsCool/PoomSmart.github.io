@@ -88,9 +88,6 @@ emoji = [
         "max_ios": "8.2",
         "strict_range": True,
         "no_sileo": True,
-        "changes": [
-            ["1.8.0", "Refactored compilation"]
-        ],
         "description": "<p>Latest emojis for iOS 6.0 - 8.2</p>\
                 <p><a href=\"https://poomsmart.github.io/emojiport\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
     },
@@ -183,14 +180,13 @@ emoji = [
     },
     {
         "file": "fbemojiefm",
-        "title": "Facebook Emoji Unicode 14.0 (EFM)",
+        "title": "Facebook Emoji Unicode 15.0 (EFM)",
         "screenshots": True,
         "changes": [
-            ["14.0.5", "Theme 00a9 and 00ae emojis"]
+            ["15.0.0", "Updated to Unicode 15.0"]
         ],
-        "description": "<p>Facebook emoji font for EmojiFontManager (Unicode 14.0).</p><br/>\
-            <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
-            <p>Refer to <a href=\"https://github.com/iamcal/emoji-data\">here</a> for licensing.</p>"
+        "description": "<p>Facebook emoji font for EmojiFontManager (Unicode 15.0).</p><br/>\
+            <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>"
     },
     {
         "file": "fluentuiefm",
