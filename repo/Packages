@@ -1624,6 +1624,23 @@ Description: Flipswitch for MyWi, all three types
 Author: PoomSmart
 Name: MyWi Flipswitch
 
+Package: com.ps.notoemojicursedefm
+Version: 15.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 26208
+Filename: ./debs/emojifont/com.ps.notoemojicursedefm_15.0.0_iphoneos-arm.deb
+Size: 20922264
+MD5sum: 55d85709f3f0b078d7b63e90a81b25c1
+SHA1: e55d238b238520e004e1ca107afd31336f50935d
+SHA256: c05ad1068e774181cc8b5ec65e71eddc82e8c5e9397baa8bacef1f7e332ffc68
+Section: Fonts (EFM)
+Description: Unicode 15.0 Google Noto Color Emoji Cursed (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/notoemojicursedefm.html
+Name: Noto Color Emoji Cursed Unicode 15.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/notoemojicursedefm.json
+
 Package: com.ps.notoemojiefm
 Version: 15.0.1
 Architecture: iphoneos-arm

@@ -232,6 +232,12 @@ emoji = [
             <p>Refer to <a href=\"https://github.com/googlefonts/noto-emoji/blob/main/LICENSE\">here</a> for licensing.</p>"
     },
     {
+        "file": "notoemojicursedefm",
+        "title": "Noto Color Emoji Cursed Unicode 15.0 (EFM)",
+        "description": "<p>Google Noto Color Cursed emoji font for EmojiFontManager (Unicode 15.0).</p><br/>\
+            <p>Try it for yourself... it's cursed.</p>"
+    },
+    {
         "file": "openmojiefm",
         "title": "OpenMoji Unicode 14.0 (EFM)",
         "screenshots": True,
