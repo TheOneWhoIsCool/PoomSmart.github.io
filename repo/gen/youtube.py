@@ -311,6 +311,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Add a mute button to the video overlay where you can directly mute or unmute the video.</p>",
         "changes": [
+            ["1.1.1", "Corrected mute button position when placed at the bottom and the audio track button is visible"],
             ["1.1.0", "Added setting page, allowing you to toggle tweak and change mute button position"]
         ]
     },

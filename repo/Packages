@@ -2385,6 +2385,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/youmute.html
 Name: YouMute
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youmute.json
 
+Package: com.ps.youmute
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 96
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.youmute_1.1.1_iphoneos-arm.deb
+Size: 9000
+MD5sum: 8e699f86bbe39099892929f3d7becf59
+SHA1: 760b24ab32a1738bf4d915e2de68365ab7263a81
+SHA256: f00d8f04ae2e9827128a1dfce20728643a30535b8cfbed71ea095f54398c7ba0
+Section: Tweaks
+Description: Mute/unmute videos in YouTube directly.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youmute.html
+Name: YouMute
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youmute.json
+
 Package: com.ps.youpip
 Version: 1.5.10
 Architecture: iphoneos-arm
