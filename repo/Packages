@@ -317,6 +317,22 @@ Description: Flipswitch toggle for Background App Refresh.
 Author: PoomSmart
 Name: Background App Refresh Flipswitch
 
+Package: com.ps.backupdfix
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/com.ps.backupdfix_1.0.0_iphoneos-arm.deb
+Size: 3140
+MD5sum: 3baa315c3676bc199052fc79d7cd260b
+SHA1: 30177fe20673964065ba497fcd12413b85142ff3
+SHA256: 7fa2cfa1931b51ae4d76e4885bc45484d319a1db13607d8cf36e23c6e14139fc
+Section: Tweaks
+Description: Fix backupd not working on Xina jailbreak.
+Author: PoomSmart
+Name: backupd_fix
+
 Package: com.ps.batteryhealthenabler
 Version: 1.0.0
 Architecture: iphoneos-arm
