@@ -2115,6 +2115,23 @@ Author: SpicaT
 Icon: file:///Library/PreferenceLoader/Preferences/RecordPause/RP@2x.png
 Name: RecordPause (iOS 9+)
 
+Package: com.ps.recordpause
+Version: 1.4.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: ./debs/camera/com.ps.recordpause_1.4.0_iphoneos-arm64.deb
+Size: 7606
+MD5sum: 7c3c3442bdcaf16a1baca64c20dec8cf
+SHA1: 3b987a47c373c6e9e917c2bb211f61d9d1f0b1bc
+SHA256: 3a938041b2ce2230c53f469cf58a370c9a4b1e4cae221f56e0b780390ee9aaaa
+Section: Tweaks
+Description: Pause/resume video recording.
+Author: PoomSmart
+Name: RecordPause
+
 Package: com.ps.reducemotionflipswitch
 Version: 1.0.0
 Architecture: iphoneos-arm
