@@ -104,6 +104,24 @@ Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
 
 Package: com.ps.amber
 Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 368
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 14.0)
+Filename: ./debs/camera/com.ps.amber_1.2.0_iphoneos-arm64.deb
+Size: 9452
+MD5sum: 3f196d3da36e068ed7ce9b56f7044dd8
+SHA1: 8623373983efedaec83e09d380badd5c5717768c
+SHA256: 86eeafca23a52b646e9c90f89c39d8ed770703e8a669f5ba6c80e30a9ecbc48a
+Section: Tweaks
+Description: Amber-ify your flashlight LEDs.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/amber.html
+Name: Amber
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
+
+Package: com.ps.amber
+Version: 1.2.0
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 368
@@ -643,6 +661,25 @@ Size: 4748
 MD5sum: e99027cfc4e8fd2a005e8bd0c399e6a9
 SHA1: 294e673892aae38c6d17eb202eb6b7552ddb5f15
 SHA256: c4a174e0bec525e50feb92c1849b2a372c125a1573f43709afe9f4fd6a518fa0
+Section: Tweaks
+Description: Toggle Wi-Fi and Bluetooth On/Off from Control Center (iOS 11+)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/cconoff.html
+Name: CC On & Off
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/cconoff.json
+
+Package: com.ps.cconandoff
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.jakeashacks.realcc
+Filename: ./debs/springboard/com.ps.cconandoff_1.1.0_iphoneos-arm64.deb
+Size: 5502
+MD5sum: 54e45accba2dd8d16a1ac37b11e4943f
+SHA1: 851283e25d893abf625f8c1848ea278d75ecec0f
+SHA256: beffef2c7b2d886270e1c5b529364d0d789a57131bec8e097cdc3f411874be70
 Section: Tweaks
 Description: Toggle Wi-Fi and Bluetooth On/Off from Control Center (iOS 11+)
 Author: PoomSmart
@@ -1551,6 +1588,24 @@ Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
 
 Package: com.ps.letmeblock
 Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0)
+Filename: ./debs/network/com.ps.letmeblock_1.0.1_iphoneos-arm64.deb
+Size: 6692
+MD5sum: 4a18d8fd9ec7aa069c53dd9f10e87e74
+SHA1: 894144287e9a03208a57ebf1bcbdf01e2b5da1f3
+SHA256: 52f2ff79c3c351711abc9cbc241f7228b67bc0688a4b878aedc378e56135c365
+Section: Tweaks
+Description: Make mDNSResponder care more about /etc/hosts
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/letmeblock.html
+Name: LetMeBlock
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
+
+Package: com.ps.letmeblock
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 200
@@ -2031,6 +2086,24 @@ Size: 3826
 MD5sum: 1dbad5dfb8a001dc76fd78bf75905b7e
 SHA1: 34e68d80d72cf7ba0825767ccca039a4bc54feb8
 SHA256: c145e3f20851ef71bb79e80c28d37531513a6dbab3428ba7f0c286d32b6eb9eb
+Section: Tweaks
+Description: Record screen without resolution cap.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/replaykitmax.html
+Name: ReplayKit Max
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/replaykitmax.json
+
+Package: com.ps.replaykitmax
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0)
+Filename: ./debs/com.ps.replaykitmax_1.0.1_iphoneos-arm64.deb
+Size: 3084
+MD5sum: d1e287e0061f3a0a2f0d45ae25e1fdeb
+SHA1: 2670fe64dbaba3ead1ea189f9e5f66553cd5d391
+SHA256: c7cc0abdba8e020111a9e89eb8f238c24ecb9685b7de1ac03189d9ad15339a96
 Section: Tweaks
 Description: Record screen without resolution cap.
 Author: PoomSmart
