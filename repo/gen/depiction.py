@@ -63,6 +63,7 @@ tweaks = [
         "title": "QuadHighCurrent",
         "min_ios": "10.0",
         "changes": [
+            ["1.1.1", "Fixed support for H10ISP cameras"],
             ["1.1.0", "Rootless mode (Enabled-only)"],
             ["1.0.0", [
                     "Fixed blackout settings icon when dark mode is active",
@@ -72,6 +73,12 @@ tweaks = [
         ],
         "description": "<p>As of version 1.1.0, no toggle is available and the tweak is always enabled.</p><br/>\
             <p>A CC/Flipswitch toggle to always have the maximum LEDs brightness (i.e., using high current) for quad-LEDs devices. An example is when you turn on the light in video recording mode of the stock camera app. For iPhone 7 and newer, iPad Pro 12.9\" (2nd Gen) and newer.</p>"
+    },
+    {
+        "file": "recordntorch",
+        "title": "Record 'n' Torch",
+        "min_ios": "12.0",
+        "description": "<p>Toggle torch while recording video on iOS camera app.</p>"
     },
     {
         "file": "libsubstitrate",

@@ -2005,6 +2005,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/quadhighcurrent.html
 Name: QuadHighCurrent
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/quadhighcurrent.json
 
+Package: com.ps.quadhighcurrent
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 10.0), gsc.camera-flash
+Filename: ./debs/camera/com.ps.quadhighcurrent_1.1.1_iphoneos-arm64.deb
+Size: 4746
+MD5sum: f58e8a4d5f98439a6c66032599c5727f
+SHA1: bedf4c8fe3b264617df199547f27627b30317c1b
+SHA256: d4facd5661e677452610236c944740240f1c8c2f7ab1415ef35a905dcef7aeb0
+Section: Tweaks
+Description: Utilize "high current" for Quad-LEDs devices.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/quadhighcurrent.html
+Name: QuadHighCurrent
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/quadhighcurrent.json
+
 Package: com.ps.quicknotesenabler
 Version: 1.2.0
 Architecture: iphoneos-arm
@@ -2036,6 +2054,27 @@ Section: Addons (Flipswitch)
 Description: Flipswitch toggle for Raise To Wake.
 Author: PoomSmart
 Name: Raise To Wake Flipswitch
+
+Package: com.ps.recordntorch
+Version: 1.8.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 12.0), gsc.camera-flash
+Conflicts: org.thebigboss.recordntorch, com.spicat.recordntorch
+Replaces: org.thebigboss.recordntorch, com.spicat.recordntorch
+Provides: org.thebigboss.recordntorch, com.spicat.recordntorch
+Filename: ./debs/camera/com.ps.recordntorch_1.8.1_iphoneos-arm64.deb
+Size: 4586
+MD5sum: fddc2afc544730adcad2283ad7578ce7
+SHA1: f9aa1c7e194e37a799e5318a0c15a4170bec9c3d
+SHA256: 1610d283ecd0e8a5d0be391a31432ce46426e7b493b687a13389d28d51ac4fee
+Section: Tweaks
+Description: Toggle torch while recording video.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/recordntorch.html
+Name: Record 'n' Torch (iOS 12+)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/recordntorch.json
 
 Package: com.ps.recordntorch
 Version: 1.8.1
@@ -4146,24 +4185,6 @@ Section: Tweaks
 Description: adjustable torch for camera app.
 Author: SpicaT
 Name: PhotoTorch
-
-Package: com.spicat.recordntorch
-Version: 1.8
-Architecture: iphoneos-arm
-Maintainer: SpicaT
-Installed-Size: 156
-Depends: mobilesubstrate, preferenceloader, firmware (>= 12.0), gsc.camera-flash, gsc.still-camera, ws.hbang.common (>= 1.2)
-Conflicts: org.thebigboss.recordntorch
-Filename: ./debs/camera/com.spicat.recordntorch_1.8_iphoneos-arm.deb
-Size: 18128
-MD5sum: da887b3fecfc781b1831d9f779e3cc7a
-SHA1: f12849a04b943837b24aa8dbee041231ae38c391
-SHA256: ad7edd42acd9408ee22405f45763f40dc95928a08ef1023b93d506e2aaf4e319
-Section: Tweaks
-Description: Toggle Torch while recording video.
-Author: SpicaT
-Icon: file:///Library/PreferenceLoaders/Preferences/TFV/TFV@2x.png
-Name: Record 'n' Torch iOS 12+
 
 Package: com.spicat.transparentcamerabar
 Version: 1.8
