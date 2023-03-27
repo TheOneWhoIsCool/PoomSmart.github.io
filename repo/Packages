@@ -2223,22 +2223,22 @@ Depiction: https://poomsmart.github.io/repo/depictions/replaykitmax.html
 Name: ReplayKit Max
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/replaykitmax.json
 
-Package: com.ps.replaykitmax-rootless
+Package: com.ps.replaykitmax
 Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
-Filename: ./debs/com.ps.replaykitmax-rootless_1.0.1_iphoneos-arm64.deb
-Size: 3094
-MD5sum: 82676c8d798b1e6d9fb87672919933a3
-SHA1: c02d918c394e4f440153b5daa2c80cbf4602efee
-SHA256: d79c2d9c807355049fda40de8c3fe4f08217e6977def83947bdf6687858f8c82
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0)
+Filename: ./debs/com.ps.replaykitmax_1.0.1_iphoneos-arm64.deb
+Size: 3332
+MD5sum: 3f9ad3a301f6d31b9969451ba85ea789
+SHA1: e785ab54560f53486bd7cad52a48b8b0c3727f2d
+SHA256: 775fc6ae2ead2e3321707c8833f69832dcd01fb5782eecd9351fbb7fe3105f2d
 Section: Tweaks
 Description: Record screen without resolution cap.
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/replaykitmax.html
-Name: ReplayKit Max (Rootless)
+Name: ReplayKit Max
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/replaykitmax.json
 
 Package: com.ps.sixtyfps
