@@ -2012,15 +2012,15 @@ Maintainer: PoomSmart
 Installed-Size: 200
 Depends: mobilesubstrate, firmware (>= 14.0), gsc.camera-flash
 Filename: ./debs/camera/com.ps.quadhighcurrent-rootless_1.1.1_iphoneos-arm64.deb
-Size: 4744
-MD5sum: 299cd36fba37585cf1bcb89db95395dd
-SHA1: 38134fcdb6cbf8381f2a8f312b9f7c2318f063e6
-SHA256: 1840c7b6ffc3fc4a67f6f081bd2285f42858535b3aa28bb4a5badebf5e97475a
+Size: 4754
+MD5sum: 4ca5c751d62226790017d5acf35a405c
+SHA1: 46fa5eaeb506777c8e7d0d15290323af5998d08b
+SHA256: 7dfdca6ddb786d4a3595fbb9f85b6e1d8c8d67aa9a1df9015d927c2539905d51
 Section: Tweaks
 Description: Utilize "high current" for Quad-LEDs devices.
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/quadhighcurrent.html
-Name: QuadHighCurrent
+Name: QuadHighCurrent (Rootless)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/quadhighcurrent.json
 
 Package: com.ps.quicknotesenabler
