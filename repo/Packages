@@ -127,15 +127,15 @@ Maintainer: PoomSmart
 Installed-Size: 368
 Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 14.0)
 Filename: ./debs/camera/com.ps.amber-rootless_1.2.0_iphoneos-arm64.deb
-Size: 9464
-MD5sum: c1f978160c47523af775a95f1e991052
-SHA1: da37945f4eefdfec8f992360379b7430ed7113d8
-SHA256: c602e6efc77ffa78d1b6531314f6e56d09caeb3894c8b4c0bbce18b8201b6377
+Size: 9456
+MD5sum: c65087c3cbc0af7f2676ab9548f0bbca
+SHA1: f0435d559a019c439ed49cc24b92b8ffd4cab743
+SHA256: 921b0df6e1333fbd7f998e2283a393ca53dc12a8005798b42e29b57db7a17140
 Section: Tweaks
 Description: Amber-ify your flashlight LEDs.
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/amber.html
-Name: Amber
+Name: Amber (Rootless)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
 
 Package: com.ps.anysuggestemojiim
@@ -695,15 +695,15 @@ Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
 Conflicts: com.jakeashacks.realcc
 Filename: ./debs/springboard/com.ps.cconandoff-rootless_1.1.0_iphoneos-arm64.deb
-Size: 5212
-MD5sum: 8dfc16ad44f24fa4c6f79b2f1f41d381
-SHA1: 56c66f3f97c7d7b1af5b7b43663d79cd9a2109e2
-SHA256: 527ae426b50e5f19e0282172a66d5bbb23770ebc537e51a803296232a0bdc11d
+Size: 5224
+MD5sum: e62d46582b4496674a2c880236f7a3c0
+SHA1: a47ee7e1f078820f3669972d20d05ec393e59cf0
+SHA256: 70b5b6be56b5f02db58710ca91b4404c2db448c2102360c0511630b6727ae326
 Section: Tweaks
 Description: Toggle Wi-Fi and Bluetooth On/Off from Control Center.
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/cconoff.html
-Name: CC On & Off
+Name: CC On & Off (Rootless)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/cconoff.json
 
 Package: com.ps.ccscalebt
@@ -1611,15 +1611,15 @@ Maintainer: PoomSmart
 Installed-Size: 136
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
 Filename: ./debs/network/com.ps.letmeblock-rootless_1.0.1_iphoneos-arm64.deb
-Size: 4544
-MD5sum: 26d35bdd6c624f61862373647c6eaebe
-SHA1: 296a12f1a20e3bf875700c1f825b9cfc453817e1
-SHA256: 89c4f9967e665bcb8bec2ce644e71f1136cd27108ebffc105ba09f2347303853
+Size: 4552
+MD5sum: d1073d23d6eb4c8657fbb607fc2d1ca7
+SHA1: 815cff18ff1a935a563afe1a01ebca7f58ce3971
+SHA256: 7ea45c69fb54d19a809f380500dd39c7d9317f1127300e2e8eb1e1838e726d2b
 Section: Tweaks
 Description: Make mDNSResponder care more about /etc/hosts
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/letmeblock.html
-Name: LetMeBlock
+Name: LetMeBlock (Rootless)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
 
 Package: com.ps.libsubstitrate
@@ -2083,15 +2083,15 @@ Maintainer: PoomSmart
 Installed-Size: 168
 Depends: mobilesubstrate, firmware (>= 14.0), gsc.camera-flash
 Filename: ./debs/camera/com.ps.recordntorch-rootless_1.8.1_iphoneos-arm64.deb
-Size: 4180
-MD5sum: 0be4217747d02cf4c684ab09eea02a63
-SHA1: 5f91b71ea0d5584d615685f9e484961bdc673f58
-SHA256: 883be84cef8522f382f7371be61133780a867d1f7c7f4bc729866302eab1394a
+Size: 4186
+MD5sum: fc37afaffb344f8b0d49b031d69972f7
+SHA1: 71fc4cc1c978e66a82d143867fa98bcd7d3bd2e5
+SHA256: 49885977838b3dd7258298050596a835025863a020cbcdffbc4a83cec097ed2a
 Section: Tweaks
 Description: Toggle torch while recording video.
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/recordntorch.html
-Name: Record 'n' Torch
+Name: Record 'n' Torch (Rootless)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/recordntorch.json
 
 Package: com.ps.recordpause
@@ -2136,14 +2136,14 @@ Maintainer: PoomSmart
 Installed-Size: 168
 Depends: mobilesubstrate, firmware (>= 14.0)
 Filename: ./debs/camera/com.ps.recordpause-rootless_1.4.0_iphoneos-arm64.deb
-Size: 7584
-MD5sum: 73b4b1baa737b6a70aa875258d622ba3
-SHA1: 96bbb52b4037b45d51a27c24a1c44258536b3faa
-SHA256: f86b5ae5f11c7020c56014de2fce5f16eee945fae075981fbc84c69c0113b0e8
+Size: 7592
+MD5sum: 7e778023cfd7d137521b6e668c995a9a
+SHA1: fee33c5d817c896bb65e8b04132f6f623e4dee10
+SHA256: 6ae41fdf7f6b6429c7c7d37b6a2649aa5f9d59ec674f9a91850c062e8d1dbac5
 Section: Tweaks
 Description: Pause/resume video recording.
 Author: PoomSmart
-Name: RecordPause
+Name: RecordPause (Rootless)
 
 Package: com.ps.reducemotionflipswitch
 Version: 1.0.0
@@ -2208,15 +2208,15 @@ Maintainer: PoomSmart
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
 Filename: ./debs/com.ps.replaykitmax-rootless_1.0.1_iphoneos-arm64.deb
-Size: 3092
-MD5sum: c82be11428ee2429adc929a2249fbb9e
-SHA1: 3df4993786f28c9fe2463e964a0a095ad242baa9
-SHA256: 22743e892ae58f987981936fc82056ec35199edb3d4cf423cb323adeacfb81ee
+Size: 3094
+MD5sum: 82676c8d798b1e6d9fb87672919933a3
+SHA1: c02d918c394e4f440153b5daa2c80cbf4602efee
+SHA256: d79c2d9c807355049fda40de8c3fe4f08217e6977def83947bdf6687858f8c82
 Section: Tweaks
 Description: Record screen without resolution cap.
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/replaykitmax.html
-Name: ReplayKit Max
+Name: ReplayKit Max (Rootless)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/replaykitmax.json
 
 Package: com.ps.sixtyfps
@@ -2433,14 +2433,14 @@ Maintainer: PoomSmart
 Installed-Size: 168
 Depends: mobilesubstrate, firmware (>= 14.0)
 Filename: ./debs/camera/com.ps.tapvideoconfig-rootless_1.0.0_iphoneos-arm64.deb
-Size: 8082
-MD5sum: fdb01dafb3948f5ce3dd498563e44061
-SHA1: ce3481db338df1cc45bc79cc6d99a139cecee128
-SHA256: afd13f51cab7f785413fcfc0d8daf23ae27a1af910becaedb2f141d5cec773ef
+Size: 8068
+MD5sum: f86fbe5d146196e79500893c72dab653
+SHA1: d2a7ada76380075f21099e692369127d8589f2e3
+SHA256: bacdee3090ac34ab59454e237fd57506548a2a79bcbba6c449744ea3948a068b
 Section: Tweaks
 Description: Change video configuration directly in Camera app.
 Author: PoomSmart
-Name: TapVideoConfig
+Name: TapVideoConfig (Rootless)
 
 Package: com.ps.tossfaceefm
 Version: 14.0.0
