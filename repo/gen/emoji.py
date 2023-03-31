@@ -49,7 +49,7 @@ emoji = [
         "file": "efmfontdl",
         "title": "EFM Font Downloader",
         "changes": [
-            ["1.0.2", "Fixed path logic"]
+            ["1.0.3", "Fixed path logic"]
         ],
         "description": "<p>A simple shell script to download an emoji font for EFM from GitHub releases.</p>"
     },

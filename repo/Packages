@@ -796,16 +796,16 @@ Author: PoomSmart
 Name: Change Vol With Buttons Flipswitch
 
 Package: com.ps.efmfontdl
-Version: 1.0.2
-Architecture: iphoneos-arm
+Version: 1.0.3
+Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 8
 Depends: wget
-Filename: ./debs/emojifont/com.ps.efmfontdl_1.0.2_iphoneos-arm.deb
-Size: 1346
-MD5sum: ee5b4641136c0f697f3684ae2851f191
-SHA1: e11179567a542344f69bd08a8277613bd143919b
-SHA256: 191aaf3dc066f3367a0683d62b0b1c6dc80c57b6b90a9d2bbc22102d85ed7a11
+Filename: ./debs/emojifont/com.ps.efmfontdl_1.0.3_iphoneos-arm64.deb
+Size: 1422
+MD5sum: 843f9df918729c3e1f71443d63532cef
+SHA1: 21a7e283dd1fd0c2170a9e3cc67c018679b61933
+SHA256: 8c08982c3fc15768c5d92c3c3a96eac9ef8902a21d336185a8b2418a2ac1bbe8
 Section: Fonts (EFM)
 Description: Shell script to download emoji font for EFM.
 Author: PoomSmart
@@ -814,16 +814,16 @@ Name: EFM Font Downloader
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/efmfontdl.json
 
 Package: com.ps.efmfontdl
-Version: 1.0.2
-Architecture: iphoneos-arm64
+Version: 1.0.3
+Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 8
 Depends: wget
-Filename: ./debs/emojifont/com.ps.efmfontdl_1.0.2_iphoneos-arm64.deb
-Size: 1372
-MD5sum: 205ea09a449f89e06d8048e1c9c3dfad
-SHA1: 53fac391b9edfa3418c73c0eaf02f2322119b8ca
-SHA256: 278536363e46b0bb77cf5addb36f497491c27dea84afb60e129ee9e7d6826af9
+Filename: ./debs/emojifont/com.ps.efmfontdl_1.0.3_iphoneos-arm.deb
+Size: 1392
+MD5sum: 662af941367bbace9d64c133ab4fcf21
+SHA1: 283aa8e66a0b4d82685521af28db4bd243f603ab
+SHA256: 530333a4966264fcd6ee518c9b6b04198a2614f2c97b7733ecb357ab57b2f57b
 Section: Fonts (EFM)
 Description: Shell script to download emoji font for EFM.
 Author: PoomSmart
