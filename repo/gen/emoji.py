@@ -4,7 +4,7 @@ emoji = [
         "title": "emojiport10resources",
         "min_ios": "10.0",
         "changes": [
-            ["1.4.2", "Updated to iOS 16.4 RC assets"],
+            ["1.4.2", "Updated to iOS 16.4 assets"],
             ["1.3.2", "Updated to iOS 16 assets"]
         ],
         "description": "<p>Up-to-date emoji assets (bitmap, localization, metadata) specific to iOS 10 and above.</p>"
@@ -18,13 +18,11 @@ emoji = [
                     "Initial support for iOS 16.4 beta emojis",
                     "Fixed installation issue on readonly filesystems devices",
                     "Fixed new emojis displayed as ? on iOS 10 and lower"
-                ]
-            ],
+            ]],
             ["1.6.0~b2", [
                     "Rootless jailbreak support",
                     "Corrected function finder for iOS 8.2 arm64 and similar"
-                ]
-            ],
+            ]],
             ["1.5.0", "Stable version"]
         ],
         "description": "<p>Various under-the-hood fixes for emoji display. See <a href=\"https://github.com/PoomSmart/EmojiAttributes/blob/master/README.md\">here</a> for more information.</p>"
@@ -34,13 +32,17 @@ emoji = [
         "title": "EmojiFontManager",
         "min_ios": "6.0",
         "changes": [
+            ["1.3.0", [
+                "Added rootless support",
+                "Removed libcephei installation requirement"
+            ]],
             ["1.2.1", "Display total disk space used for all installed fonts"],
             ["1.1.8", "Minor cleanup (Note: XinaA15 jailbreak cannot yet inject into WebContent processes which means EFM will not work in Safari)"]
         ],
         "description": "<p><b>**EmojiPort needs to be installed if you also want new emojis.**</b><br/>\
             This tweak allows you to theme emoji font wihout touching filesystem.\
             Access <b>Settings app &gt; EmojFontManager</b> to choose your font.<br/>\
-            EFM fonts must be in this format: <code>/Library/Themes/EmojiFontManager/&lt;Font-Name&gt;.font/AppleColorEmoji@2x.{ttf,ttc}</code><br/>\
+            EFM fonts must be in this format: <code>(/var/jb)/Library/Themes/EmojiFontManager/&lt;Font-Name&gt;.font/AppleColorEmoji@2x.ttc</code><br/>\
             It is highly recommended to respring after you change the font.</p>"
     },
     {
