@@ -46,6 +46,14 @@ emoji = [
             It is highly recommended to respring after you change the font.</p>"
     },
     {
+        "file": "efmfontdl",
+        "title": "EFM Font Downloader",
+        "changes": [
+            ["1.0.1", "Reduced verbosity of log messages"]
+        ],
+        "description": "<p>A simple shell script to download an emoji font for EFM from GitHub releases.</p>"
+    },
+    {
         "file": "emojilayout",
         "title": "EmojiLayout",
         "min_ios": "6.0",
