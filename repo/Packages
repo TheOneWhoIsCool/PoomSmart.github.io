@@ -802,10 +802,10 @@ Maintainer: PoomSmart
 Installed-Size: 8
 Depends: wget
 Filename: ./debs/emojifont/com.ps.efmfontdl_1.0.2_iphoneos-arm.deb
-Size: 1340
-MD5sum: afaa60fe02d7138f042cbc050b5b78a4
-SHA1: 158997a2ec7945a4542a13ea11599d1cf6021533
-SHA256: 2a763bd006642e003d9f8a0577ac8fd1ff12a3dcda48e4bc7326ca47f050912e
+Size: 1346
+MD5sum: ee5b4641136c0f697f3684ae2851f191
+SHA1: e11179567a542344f69bd08a8277613bd143919b
+SHA256: 191aaf3dc066f3367a0683d62b0b1c6dc80c57b6b90a9d2bbc22102d85ed7a11
 Section: Fonts (EFM)
 Description: Shell script to download emoji font for EFM.
 Author: PoomSmart
@@ -821,9 +821,9 @@ Installed-Size: 8
 Depends: wget
 Filename: ./debs/emojifont/com.ps.efmfontdl_1.0.2_iphoneos-arm64.deb
 Size: 1372
-MD5sum: 7e37a456f83083c886f7965bedea8d08
-SHA1: 17e000b4bf7c7dc30d9a0afbff5d355c046ca8f2
-SHA256: 84bb55e577f1339789fbbb657e1055b828233a1634e727c2c8680907602e871b
+MD5sum: 205ea09a449f89e06d8048e1c9c3dfad
+SHA1: 53fac391b9edfa3418c73c0eaf02f2322119b8ca
+SHA256: 278536363e46b0bb77cf5addb36f497491c27dea84afb60e129ee9e7d6826af9
 Section: Fonts (EFM)
 Description: Shell script to download emoji font for EFM.
 Author: PoomSmart
