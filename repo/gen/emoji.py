@@ -32,6 +32,7 @@ emoji = [
         "title": "EmojiFontManager",
         "min_ios": "6.0",
         "changes": [
+            ["1.3.2", "Fixed system app crashing introduced in 1.3.1"],
             ["1.3.1", "Simplified hooks, fixing app crash on Fugu15 Max environment"],
             ["1.3.0", [
                 "Added rootless support",
