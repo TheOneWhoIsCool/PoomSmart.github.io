@@ -162,11 +162,7 @@ tweaks = [
         "min_ios": "9.0",
         "description": "<p>Full screen, Split and Slideover for every app on iPad.</p>",
         "changes": [
-            ["1.1.1", "Fixed tweak not being injected into SpringBoard sometimes"],
-            ["1.1.0", "Use AltList classless approach"],
-            ["1.0.0", "Use AltList for listing applications"],
-            ["0.0.2", "You can now configure blacklisted applications from Settings"],
-            ["0.0.1", "Initial release"]
+            ["1.1.1", "Fixed tweak not being injected into SpringBoard sometimes"]
         ]
     },
     {
@@ -295,8 +291,7 @@ tweaks = [
         "min_ios": "7.0",
         "description": "<p>Add colored blur to SpringBoard icon badges.</p>",
         "changes": [
-            ["1.4.1", "Fixed mismatched defaut settings"],
-            ["1.4.0", "iOS 15 support"]
+            ["1.4.1", "iOS 15 support"]
         ]
     },
     {
@@ -304,10 +299,7 @@ tweaks = [
         "title": "Live Text Enabler",
         "min_ios": "15.0",
         "inline_source_code": True,
-        "description": "<p>Enable Live Text on unsupported iOS 15 devices.</p>",
-        "changes": [
-            ["1.1.1", "TBC later"]
-        ]
+        "description": "<p>Enable Live Text on unsupported iOS 15 devices.</p>"
     },
     {
         "file": "advancedmapenabler",
