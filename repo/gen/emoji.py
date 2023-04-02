@@ -32,6 +32,7 @@ emoji = [
         "title": "EmojiFontManager",
         "min_ios": "6.0",
         "changes": [
+            ["1.3.3~temp", "(Rootless-only) Disabled injection into WebContent due to ongoing issues with ElleKit"],
             ["1.3.2", "Simplified hooks, fixing app crash on Fugu15 Max environment"],
             ["1.3.0", [
                 "Added rootless support",
