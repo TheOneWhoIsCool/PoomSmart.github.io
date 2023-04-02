@@ -188,6 +188,40 @@ Depiction: https://poomsmart.github.io/repo/depictions/anywherewidgetsforipad.ht
 Name: Anywhere Widgets for iPad
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/anywherewidgetsforipad.json
 
+Package: com.ps.appcolorclose
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 176
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Conflicts: org.thebigboss.appcolorclose, com.spicat.appcolorclose
+Filename: ./debs/springboard/com.ps.appcolorclose_1.2.1_iphoneos-arm64.deb
+Size: 23714
+MD5sum: 03f30307136ae30830002f7b34c16671
+SHA1: 870696324f9e7a879d327654c6be773e50195e36
+SHA256: 671969d2f20571d5a6074d615d80cd3f34810597828ec8342feea8645e8baa9a
+Section: Tweaks
+Description: Tint app close box based on app icon color.
+Author: PoomSmart
+Name: AppColorClose (iOS 12+)
+
+Package: com.ps.appcolorclose
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 160
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Conflicts: org.thebigboss.appcolorclose, com.spicat.appcolorclose
+Filename: ./debs/springboard/com.ps.appcolorclose_1.2.1_iphoneos-arm.deb
+Size: 23390
+MD5sum: c590ea8213685f560cdced5060b5a624
+SHA1: 2e9b0521bce173d14f47efb994796bd263ccf397
+SHA256: 2cfd15179eb346c1492199818190a96f648d8ed7d18f52908dc1f9a786b43f15
+Section: Tweaks
+Description: Tint app close box based on app icon color.
+Author: PoomSmart
+Name: AppColorClose (iOS 12+)
+
 Package: com.ps.applebtdeviceessupport
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -1210,6 +1244,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
 Name: EmojiLibrary
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
 
+Package: com.ps.emojilibrary
+Version: 1.5.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 508
+Filename: ./debs/emojiport/com.ps.emojilibrary_1.5.0_iphoneos-arm64.deb
+Size: 48608
+MD5sum: 474d1bcdacdbd68ead06c861365e26ee
+SHA1: 7f09b0e3b4e1f9f3cd42cb04d14dfa8970d0330d
+SHA256: 95a0afbb18fdff0fa41c4fc9faa842f318079d00bb4c73bd0155e7d816da1874
+Section: Development
+Description: Master library for PoomSmart's emoji tweaks.
+Tag: role::developer
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
+Name: EmojiLibrary
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
+
 Package: com.ps.emojilocalization
 Version: 1.1.2
 Architecture: iphoneos-arm
@@ -1433,6 +1485,24 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/emojisearchforipad.html
 Name: Emoji Search for iPad
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojisearchforipad.json
+
+Package: com.ps.expandedclassicscreen
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), gsc.ipad
+Filename: ./debs/springboard/com.ps.expandedclassicscreen_1.0.0_iphoneos-arm64.deb
+Size: 3002
+MD5sum: 701e4669f2cfb835e96cdac99ce893e6
+SHA1: 47ac4bef484d3d669fa277d6e2afb02fe7f5a62c
+SHA256: 9ff28b011b62c4ae847683af44e55065e922b3ee8cde822e879c39b410ef8c25
+Section: Tweaks
+Description: Use 414x736 (iPhone 6s+) resolution for classic apps.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/expandedclassicscreen.html
+Name: ExpandedClassicScreen
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/expandedclassicscreen.json
 
 Package: com.ps.expandedclassicscreen
 Version: 1.0.0
@@ -2462,6 +2532,24 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/pearltracking.html
 Name: PearlTracking
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/pearltracking.json
+
+Package: com.ps.pencilpro
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: firmware (>= 9.0), gsc.ipad, mobilesubstrate
+Filename: ./debs/com.ps.pencilpro_1.0.0_iphoneos-arm64.deb
+Size: 5116
+MD5sum: 0b31e6c5d2d465415ae63f80ac5fb0dd
+SHA1: d7734cb2f591aaea62b5aa110794e6704ad4dd7e
+SHA256: abee86d50fb0ca678f6dbdd9243f358b00db148d00b912b634b804c1a1af55e2
+Section: Tweaks
+Description: Apple Pencil can do better.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/pencilpro.html
+Name: Pencil Pro
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/pencilpro.json
 
 Package: com.ps.pencilpro
 Version: 1.0.0
@@ -4190,23 +4278,6 @@ Section: Addons (Flipswitch)
 Description: Flipswitch toggle for ZoomTouch.
 Author: PoomSmart
 Name: ZoomTouch Flipswitch
-
-Package: com.spicat.appcolorclose
-Version: 1.2
-Architecture: iphoneos-arm
-Maintainer: Spica T
-Installed-Size: 160
-Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
-Conflicts: org.thebigboss.appcolorclose
-Filename: ./debs/springboard/com.spicat.appcolorclose_1.2_iphoneos-arm.deb
-Size: 20512
-MD5sum: 544928b1ee498d993a4666ce7b3c2f8a
-SHA1: 858b68c3cd0f289c1fcafc879d88f5d8fdf632be
-SHA256: 0f18eb8ea9d4ffbfeb3e8648f91cf5c888a3248e6053f7b3ddd17c7163f71234
-Section: Tweaks
-Description: Tint app close box based on app icon color.
-Author: Spica T
-Name: AppColorClose iOS 12+
 
 Package: com.spicat.flashorama
 Version: 1.6.2
