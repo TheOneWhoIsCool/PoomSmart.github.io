@@ -259,9 +259,7 @@ tweaks = [
         </ul>",
         "changes": [
             ["1.3.0", "Reworked support for Metal apps"],
-            ["1.2.0 - 1.2.1 *", "Pulled from the repo"],
-            ["1.1.2", "Fixed a possible crash"],
-            ["1.1.1", "Added iOS 15 support"],
+            ["1.1.2", "Added iOS 15 support"],
             ["1.1.0", [
                     "Added support for an array of Metal-based apps",
                     "Separate system and user apps in sections"
@@ -288,10 +286,10 @@ tweaks = [
     {
         "file": "blurrybadges",
         "title": "Blurry Badges",
-        "min_ios": "7.0",
+        "min_ios": "14.0",
         "description": "<p>Add colored blur to SpringBoard icon badges.</p>",
         "changes": [
-            ["1.4.1", "iOS 15 support"]
+            ["1.4.3", "iOS 15 support"]
         ]
     },
     {

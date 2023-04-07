@@ -505,6 +505,44 @@ Depiction: https://poomsmart.github.io/repo/depictions/blurrybadges.html
 Name: BlurryBadges
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/blurrybadges.json
 
+Package: com.ps.blurrybadges
+Version: 1.4.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 436
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: org.thebigboss.blurrybadges, com.spicat.blurrybadges
+Filename: ./debs/springboard/com.ps.blurrybadges_1.4.3_iphoneos-arm.deb
+Size: 41962
+MD5sum: bfa101128ff0aa14665021d1ca9f9047
+SHA1: 42b9d9dcce5f93b13b716100e38050d83979225b
+SHA256: 3a6b001a0bde8795201fa9421458df83c11354e2a0a01767f78d323adefb74f7
+Section: Tweaks
+Description: Colored blur for SpringBoard icon badges.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/blurrybadges.html
+Name: BlurryBadges (iOS 14+)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/blurrybadges.json
+
+Package: com.ps.blurrybadges
+Version: 1.4.3
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 436
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: org.thebigboss.blurrybadges, com.spicat.blurrybadges
+Filename: ./debs/springboard/com.ps.blurrybadges_1.4.3_iphoneos-arm64.deb
+Size: 42018
+MD5sum: fa1028b6832ecab22843107b0900eff5
+SHA1: d1a4d5b73461e5429ac0ebe2dafdc7b36f644fe7
+SHA256: 8ae9370c26fc4082d5c26a1e10f1bd998bec6c85d36a4bb7bd00071bd5af8756
+Section: Tweaks
+Description: Colored blur for SpringBoard icon badges.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/blurrybadges.html
+Name: BlurryBadges (iOS 14+)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/blurrybadges.json
+
 Package: com.ps.boldtextflipswitch
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -536,24 +574,6 @@ Size: 8436
 MD5sum: f5457b4c8ab3bad1dce9816e2ca92758
 SHA1: a36a4b84318efb68ecc86f76742bf38b1daf9234
 SHA256: c5493b5e3f0cc64baee637a6e701e24b66af484ccc03402f2836f5f96215a402
-Section: Tweaks
-Description: Make CoreAnimation apps use the highest available FPS.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/cahighfps.html
-Name: CAHighFPS
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/cahighfps.json
-
-Package: com.ps.cahighfps
-Version: 1.1.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 204
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
-Filename: ./debs/com.ps.cahighfps_1.1.1_iphoneos-arm.deb
-Size: 8602
-MD5sum: ce66e25b9233fafe58fefa4006222675
-SHA1: 59ee58f47ee0b0a3672275615cb64a6ef92f8ab3
-SHA256: 79fbb37f9b1e2ce68bc9ae4fee00fa4f953ddcdcf967b5f3c076284d9f9b5063
 Section: Tweaks
 Description: Make CoreAnimation apps use the highest available FPS.
 Author: PoomSmart
