@@ -3495,16 +3495,16 @@ Name: YouMute
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youmute.json
 
 Package: com.ps.youmute
-Version: 1.1.1
+Version: 1.1.1-1
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 100
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/youmute/com.ps.youmute_1.1.1_iphoneos-arm64.deb
-Size: 9262
-MD5sum: 99f203399a37b5dfb5e2e40addb61e71
-SHA1: ac3a4268a9b20bb222d449cbe4631b5dc5a25867
-SHA256: 61cd1a7040793624861d1453b1261172b60f0c502d4ccc19eaeea7c453428c75
+Filename: ./debs/youtube/youmute/com.ps.youmute_1.1.1-1_iphoneos-arm64.deb
+Size: 9186
+MD5sum: 236d42a7cb671912f90cf5cdfbebe10c
+SHA1: 816d744b91bf218b0f312ee5f0c721921e02ad51
+SHA256: 19aea2fc45aed24cc8e4301c421ff228af747b0ec7a7310141d4e94d77fc1d5f
 Section: Tweaks
 Description: Mute/unmute videos in YouTube directly.
 Author: PoomSmart
@@ -3597,7 +3597,7 @@ Name: YouPiP
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
 
 Package: com.ps.youpip
-Version: 1.7.19
+Version: 1.7.19-1
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 300
@@ -3605,11 +3605,11 @@ Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | co
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youtube/youpip/com.ps.youpip_1.7.19_iphoneos-arm64.deb
-Size: 29808
-MD5sum: 98ffb606b39006d3aa96d5f3146d70be
-SHA1: 31896a322c913c648490ed92299506e48e32c950
-SHA256: 36c8a9d943734a4212f957ae9267479761a70205df5b277fbaf0b35aefbdffad
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.7.19-1_iphoneos-arm64.deb
+Size: 29810
+MD5sum: ffe934eba07782181dc7eebe54ff7d33
+SHA1: 9a6bf8ef4efafa18197d3c2cc36b9a7722bfb3af
+SHA256: 2ef3f890ccd0d91fb876b79c16168179ec82206527b3481371685a2ca6a6d594
 Section: Tweaks
 Description: Enable native PiP in YouTube app.
 Author: PoomSmart
@@ -3798,16 +3798,16 @@ Name: YTABConfig
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabconfig.json
 
 Package: com.ps.ytabconfig
-Version: 1.5.0
+Version: 1.5.0-1
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 148
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/ytabconfig/com.ps.ytabconfig_1.5.0_iphoneos-arm64.deb
-Size: 20086
-MD5sum: 28e821728a596d129765d4cffcfa75ce
-SHA1: 7d1fcecf9791a33a8ec30456f33de2c7977ec163
-SHA256: 756cf1a01529aa71a6c52f6e98c780db4a99f2c26c559c4c24643f29ded5c797
+Filename: ./debs/youtube/ytabconfig/com.ps.ytabconfig_1.5.0-1_iphoneos-arm64.deb
+Size: 20106
+MD5sum: 83b6940d2c475e34d50f15fe56842ab6
+SHA1: 7aa5a918d35de9b5ea033fe98e025762d786ddf1
+SHA256: 09585e93e232225b92a753e37f62111fe6b0f20cf291fc0fb785d6a27db427bf
 Section: Tweaks
 Description: Configure A/B features in iOS YouTube app.
 Author: PoomSmart
@@ -3816,16 +3816,16 @@ Name: YTABConfig
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabconfig.json
 
 Package: com.ps.ytabconfig
-Version: 1.5.0
+Version: 1.5.0-1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 144
+Installed-Size: 148
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/ytabconfig/com.ps.ytabconfig_1.5.0_iphoneos-arm.deb
-Size: 19698
-MD5sum: dc3849987a4b4acecb5d428faf4893cd
-SHA1: 49889d58250752496140fc8b47c62dd825f8061e
-SHA256: e52d6a4d560da6bf04422a8d9bb21c96c975c92f047fdeb3757db0872792fb4f
+Filename: ./debs/youtube/ytabconfig/com.ps.ytabconfig_1.5.0-1_iphoneos-arm.deb
+Size: 20044
+MD5sum: 1b178e2428ce1050210f43e95a6e15a4
+SHA1: dacb3f877eac057d68bf2228a08cc9bbcdb61f7d
+SHA256: cf278c5d4f03df8f5ae4c9710974f0f1d56e2dbbe552c1b39061db74cb0b9824
 Section: Tweaks
 Description: Configure A/B features in iOS YouTube app.
 Author: PoomSmart
@@ -4229,24 +4229,6 @@ Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
 
 Package: com.ps.ytuhd
 Version: 1.3.5
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 144
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.3.5_iphoneos-arm64.deb
-Size: 8502
-MD5sum: f16d28cd49e9f63f49268aeb0e48dd67
-SHA1: 116976111be0b3627c0e2ca62327fd011e712a2a
-SHA256: aee172a57f9f4a9c6d61f26c42e8041dc37810e520dcd09803820da6f03e9b34
-Section: Tweaks
-Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
-Name: YTUHD
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
-
-Package: com.ps.ytuhd
-Version: 1.3.5
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 140
@@ -4256,6 +4238,24 @@ Size: 8450
 MD5sum: c5f556405d020baec06d817451a143f1
 SHA1: c4267be0c826465d63b60a8411d107223019ec96
 SHA256: cb744e7891e9a589692efd0d041ec7a8f707a3d74aad5c9f18a659e959960f4f
+Section: Tweaks
+Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
+Name: YTUHD
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
+
+Package: com.ps.ytuhd
+Version: 1.3.5-1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.3.5-1_iphoneos-arm64.deb
+Size: 8490
+MD5sum: 587df0ec413668548bd1e9779ce7dd1a
+SHA1: 2d1fe8271181f6c9a9fb3efc76394958cef377bf
+SHA256: c30587598c500a87193a7da6782c55b8e501d480b6868e8b4009bb119b9779a8
 Section: Tweaks
 Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
 Author: PoomSmart
