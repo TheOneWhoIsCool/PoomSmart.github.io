@@ -3854,25 +3854,6 @@ Name: YTABConfig
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabconfig.json
 
 Package: com.ps.ytabgoodies
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Conflicts: com.ps.youremembercaption, com.ps.ytnochecklocalnetwork, com.ps.ytsystemappearance, com.ps.youarethere
-Filename: ./debs/youtube/retired/com.ps.ytabgoodies_1.0.2_iphoneos-arm.deb
-Size: 2770
-MD5sum: 5781e0dffdca96395241c898a74af615
-SHA1: 187067650ff87366e3213e2bf7ce1f3f468561de
-SHA256: c430033ca93ac306df555a0fe171c00ba75878d7bf9b7e1857f7b00ad0aae171
-Section: Tweaks
-Description: Enforce useful YouTube features that are otherwise 50/50 available to you.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytabgoodies.html
-Name: YTABGoodies
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabgoodies.json
-
-Package: com.ps.ytabgoodies
 Version: 1.0.4
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -3884,6 +3865,25 @@ Size: 2820
 MD5sum: 172284de0344c18a9d4d2385c4a4630b
 SHA1: 53d2ee89fd370b79dc76089741570adb2e14fe99
 SHA256: 3ae35233e9a17e8621280557ba6fd456aba26bc956f65e13a251c5e79d405daa
+Section: Tweaks
+Description: Enforce useful YouTube features that are otherwise 50/50 available to you.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabgoodies.html
+Name: YTABGoodies
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabgoodies.json
+
+Package: com.ps.ytabgoodies
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.ps.youremembercaption, com.ps.ytnochecklocalnetwork, com.ps.ytsystemappearance, com.ps.youarethere
+Filename: ./debs/youtube/retired/com.ps.ytabgoodies_1.0.4_iphoneos-arm64.deb
+Size: 2898
+MD5sum: 0b9422be3e1581c0d03428927d5dcf9f
+SHA1: f308bb4b0b07528e6f032f1cee84d581b0a29dbc
+SHA256: a48b22ee62adb697b2a3e5318fb3d8b52c1ba748281c1ffabae9dd9a98a8c75b
 Section: Tweaks
 Description: Enforce useful YouTube features that are otherwise 50/50 available to you.
 Author: PoomSmart

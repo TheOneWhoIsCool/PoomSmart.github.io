@@ -214,8 +214,7 @@ youtube = [
                 tweak_url("ytsystemappearance")
         ),
         "changes": [
-            ["1.0.4", "Enabled video zoom in/out feature"],
-            ["1.0.2", "Enabled changing video quality on AirPlay"]
+            ["1.0.4", "Enabled video zoom in/out feature"]
         ]
     },
     {
