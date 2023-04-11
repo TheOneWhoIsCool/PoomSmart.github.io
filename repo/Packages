@@ -1504,6 +1504,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
 Name: EmojiPort (iOS 12.0-16.3)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
 
+Package: com.ps.emojiportpe
+Version: 1.4.2~b1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 336
+Depends: firmware (>= 12.0), firmware (<< 16.4), com.ps.emojiattributes (>= 1.7.0~b1), com.ps.emojilibrary (>= 1.5.0), com.ps.emojiport10resources (>= 1.4.0)
+Filename: ./debs/emojiport/com.ps.emojiportpe_1.4.2~b1_iphoneos-arm64.deb
+Size: 17656
+MD5sum: b8236a6e35ac042ae969016e9241063c
+SHA1: 7cc39cb3b965e3f63081302706d4813078effa7e
+SHA256: 64da638e9154f173c78b78e08857a7ad94584baa4686ca632f9e76c30a360c44
+Section: Tweaks
+Description: Latest emojis for iOS 12.0-16.3
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
+Name: EmojiPort (iOS 12.0-16.3)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
+
 Package: com.ps.emojiportps
 Version: 1.7.0
 Architecture: iphoneos-arm
@@ -2421,6 +2439,24 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/noytmpremium.html
 Name: NoYTMPremium
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/noytmpremium.json
+
+Package: com.ps.noytpremium
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.noytpremium_1.0.4_iphoneos-arm64.deb
+Size: 2704
+MD5sum: 7b70c96d891c5e84a7abaf527ac4efa9
+SHA1: 01af34b6fc4fce21b11f57c1a7890a10c3ebd089
+SHA256: 628c159a3a74b608779aee95d8716ca0d3b9b0be3d43ccc8ac90ca6f45db2992
+Section: Tweaks
+Description: Remove YouTube Premium upsells.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/noytpremium.html
+Name: NoYTPremium
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/noytpremium.json
 
 Package: com.ps.noytpremium
 Version: 1.0.4
@@ -3909,6 +3945,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytautofullscreen.html
 Name: YTAutoFullScreen
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytautofullscreen.json
 
+Package: com.ps.ytautofullscreen
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.ytautofullscreen_1.0.3_iphoneos-arm64.deb
+Size: 2966
+MD5sum: 4c1a639a722166dea4f35f49634d717a
+SHA1: 243b7266c10ea5101853ea6b85841f0e0a580489
+SHA256: 21be5917e771e2327248d4ebcdd4b12a9d97afd061e4a2352767444c91fbf166
+Section: Tweaks
+Description: Automatically play videos in full screen.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytautofullscreen.html
+Name: YTAutoFullScreen
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytautofullscreen.json
+
+Package: com.ps.ytclassicvideoquality
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.ytclassicvideoquality_1.0.1_iphoneos-arm64.deb
+Size: 2744
+MD5sum: bcc6377fc3074bf6c4f05a65e9e7d862
+SHA1: 00f015850d346f2a738a2ebe9564a4ba67eb36db
+SHA256: 8da6d191aa214be9c4ad114c8f601193253981ffe9614adaf1f3c1c3cde3e219
+Section: Tweaks
+Description: Revert to the original video quality selector in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytclassicvideoquality.html
+Name: YTClassicVideoQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytclassicvideoquality.json
+
 Package: com.ps.ytclassicvideoquality
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -3995,6 +4067,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytnopaidpromo.html
 Name: YTNoPaidPromo
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytnopaidpromo.json
 
+Package: com.ps.ytnopaidpromo
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.ytnopaidpromo_1.0.0_iphoneos-arm64.deb
+Size: 2882
+MD5sum: 10564c2db2bc3c0b9374ec372dd7e856
+SHA1: 74f1a265ddd90a6091ddcd62301f8fe5c7f500ff
+SHA256: fe7def5a9f2d885b55aaad69d42c35005a4df21648cf2a1b150dbc0e5ae38423
+Section: Tweaks
+Description: Remove "Include paid promotion" banner from videos on YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytnopaidpromo.html
+Name: YTNoPaidPromo
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytnopaidpromo.json
+
 Package: com.ps.ytreexplore
 Version: 1.0.2
 Architecture: iphoneos-arm
@@ -4013,23 +4103,23 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytreexplore.html
 Name: YTReExplore
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytreexplore.json
 
-Package: com.ps.ytshortsprogress
-Version: 1.0.1
-Architecture: iphoneos-arm
+Package: com.ps.ytreexplore
+Version: 1.0.2
+Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/com.ps.ytshortsprogress_1.0.1_iphoneos-arm.deb
-Size: 2614
-MD5sum: e5dc9ce6f3bae2c8b490c5fca7069ce0
-SHA1: 634119808a937c89f2613ea86fc911c96c7ce83e
-SHA256: a75663ffc65cec758a20a86669d2a58c3bd1420e9771a90496838d9c0c842c17
+Filename: ./debs/youtube/com.ps.ytreexplore_1.0.2_iphoneos-arm64.deb
+Size: 3664
+MD5sum: ed43c7b7b4fd5f9733ab795f08a3c81f
+SHA1: 470b8e82db79a4234e5dc1f34ca42f51dcf89f9e
+SHA256: 2dcc1a1eae08e9deb9ee29cf836b4a1e92c26feeb3b7b06df110831692b1e07a
 Section: Tweaks
-Description: Enable YouTube shorts progress/scrubber.
+Description: Remove Shorts tab and replace with Explore tab in YouTube app.
 Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytshortsprogress.html
-Name: YTShortsProgress
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytshortsprogress.json
+Depiction: https://poomsmart.github.io/repo/depictions/ytreexplore.html
+Name: YTReExplore
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytreexplore.json
 
 Package: com.ps.ytshortsprogress
 Version: 1.0.2
@@ -4049,6 +4139,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytshortsprogress.html
 Name: YTShortsProgress
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytshortsprogress.json
 
+Package: com.ps.ytshortsprogress
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.ytshortsprogress_1.0.2_iphoneos-arm64.deb
+Size: 2644
+MD5sum: 9120eb965c14c96a2a730e73a1ed2b0a
+SHA1: cf72374bba805a144f85e070d8075b616f1afe9f
+SHA256: af090003b0223856c7c8a616de7e9071a3a6f6f40da500519acec3da84fdb9a5
+Section: Tweaks
+Description: Enable YouTube shorts progress/scrubber.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytshortsprogress.html
+Name: YTShortsProgress
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytshortsprogress.json
+
 Package: com.ps.ytsilentvote
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -4060,6 +4168,24 @@ Size: 2686
 MD5sum: 99ca5c25b8a671bb48c9c4d491c5dc1d
 SHA1: 105e03a67447acfa4b3b2d2bc8755e932d269b52
 SHA256: c0eb9b9390f0dcac3b7c41ac5a99c862f630c6f1b76e4c5c4308d85677641e37
+Section: Tweaks
+Description: No messages will pop up as you like/dislike videos.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytsilentvote.html
+Name: YTSilentVote
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytsilentvote.json
+
+Package: com.ps.ytsilentvote
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.ytsilentvote_1.0.0_iphoneos-arm64.deb
+Size: 2770
+MD5sum: ed421689aef0b3bb09c4d3ef50a0547d
+SHA1: 8f51cc0d0ce1f1bcdeca1f36cd83b50d39b8da0e
+SHA256: 4e733237523d8cb64f64f5016a8283948b5c67307524b4e81fbec829d17f7461
 Section: Tweaks
 Description: No messages will pop up as you like/dislike videos.
 Author: PoomSmart
@@ -4285,6 +4411,23 @@ Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
 
 Package: com.ps.ytunshorts
 Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytreexplore
+Conflicts: com.ps.ytshortsprogress, com.miro.ytnoshorts
+Filename: ./debs/youtube/com.ps.ytunshorts_1.0.1_iphoneos-arm64.deb
+Size: 2682
+MD5sum: 986118da9f923f93e2a16c0dc0ae4e0a
+SHA1: 584e1312ee6f504fa2ea2e3654b6652e9b341800
+SHA256: 1426b70fbaa6d599f9560a17790a7a46814582c60a941e2078fcda36e2516618
+Section: Tweaks
+Description: Remove Shorts from YouTube app's feed.
+Author: PoomSmart
+Name: YTUnShorts
+
+Package: com.ps.ytunshorts
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 72
@@ -4301,34 +4444,16 @@ Author: PoomSmart
 Name: YTUnShorts
 
 Package: com.ps.ytx
-Version: 1.2.2-1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
-Filename: ./debs/youtube/com.ps.ytx_1.2.2-1_iphoneos-arm.deb
-Size: 3220
-MD5sum: a3d622822c0dee6b0227b986a28f6703
-SHA1: 261a2d44d37d848ea5e15b460cd8d9f6aafa101f
-SHA256: 2fccccd659aa36ca09617bd091fdf702210d6fc17b3d920f63231a6fb1d8809c
-Section: Tweaks
-Description: A lightweight YouTube improvement tweak.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
-Name: YouTube X
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
-
-Package: com.ps.ytx
-Version: 1.2.2-1
+Version: 1.2.3
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
-Filename: ./debs/youtube/com.ps.ytx_1.2.2-1_iphoneos-arm64.deb
-Size: 3292
-MD5sum: 1bdbb3917b73be60f79a7c55ba56007f
-SHA1: 5131b91e8b800d24967fdd229f85eaef2e4a6019
-SHA256: d6349ab3e6eb8f7e48421d0bf8caddb365924c8063f3e12a95985d76d0489ce6
+Filename: ./debs/youtube/com.ps.ytx_1.2.3_iphoneos-arm64.deb
+Size: 3466
+MD5sum: 25dec94d02334090641a9379b8275e3d
+SHA1: 005a328e2c911272689adf26d3c159b90693359e
+SHA256: a249eb669d1e4f228b1cec9b86e826ee905695748e2ea0f80c2fcb6e359f1ce1
 Section: Tweaks
 Description: A lightweight YouTube improvement tweak.
 Author: PoomSmart

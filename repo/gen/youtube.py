@@ -92,8 +92,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Always enable progress bar and scrubbing in YouTube Shorts.</p>",
         "changes": [
-            ["1.0.2", "Fixed a bug where swiping on a full-screen video always triggers progress bar change"],
-            ["1.0.1", "Fully supports iPad"]
+            ["1.0.2", "Fixed a bug where swiping on a full-screen video always triggers progress bar change"]
         ]
     },
     {

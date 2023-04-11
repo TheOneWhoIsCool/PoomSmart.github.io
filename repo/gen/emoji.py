@@ -136,6 +136,7 @@ emoji = [
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
+            ["1.4.2~b1", "(Rootless-only) Disabled injection into WebContent due to ElleKit issues"],
             ["1.4.1", [
                 "Allow installation on iOS 15.4 - 16.3.1",
                 "Fixed app crash on rootful palera1n devices"
