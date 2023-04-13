@@ -2626,6 +2626,27 @@ Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/padgrid.json
 
 Package: com.ps.padgrid
 Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 192
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), preferenceloader, com.ichitaso.iconorder | me.nepeta.iconstate | com.eswick.iconlayoutmanager
+Conflicts: com.ps.pad56
+Replaces: com.ps.pad56
+Provides: com.ps.pad56
+Filename: ./debs/springboard/com.ps.padgrid_1.2.0_iphoneos-arm64.deb
+Size: 8342
+MD5sum: 38c321245b48cf7778defdc1dd299702
+SHA1: c5197fdfb13ae4ad40f56a76ea63166d275d180e
+SHA256: e2246f7d79b2c9c54da737f120e087121d2c648fdc0b7eb0be1581eac0a76116
+Section: Tweaks
+Description: Increase home screen icon grid size for iPad.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/padgrid.html
+Name: PadGrid
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/padgrid.json
+
+Package: com.ps.padgrid
+Version: 1.2.0
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 224
