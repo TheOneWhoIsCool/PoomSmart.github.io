@@ -162,7 +162,7 @@ tweaks = [
         "min_ios": "9.0",
         "description": "<p>Full screen, Split and Slideover for every app on iPad.</p>",
         "changes": [
-            ["1.1.2", "(Rootless-only) Use com.apple.UIKit as settings domain to work around Fugu15 Max limitation"],
+            ["1.1.2", "(Rootless-only) Fixed preference not working"],
             ["1.1.1", "Fixed tweak not being injected into SpringBoard sometimes"]
         ]
     },
@@ -259,7 +259,7 @@ tweaks = [
             <li>Jelly Defense</li>\
         </ul>",
         "changes": [
-            ["1.3.1", "(Rootless-only) Use com.apple.UIKit as settings domain to work around Fugu15 Max limitation"],
+            ["1.3.1", "(Rootless-only) Fixed preference not working"],
             ["1.3.0", "Reworked support for Metal apps"],
             ["1.1.2", "Added iOS 15 support"],
             ["1.1.0", [
