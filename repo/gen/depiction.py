@@ -307,6 +307,13 @@ tweaks = [
         "min_ios": "15.0",
         "description": "<p>Enable Advanced Map (3D globe) on unsupported iPhones/iPods/iPads running iOS 15.</p>"
     },
+    {
+        "file": "latesttranslate",
+        "title": "LatestTranslate",
+        "min_ios": "14.0",
+        "max_ios": "15.7.2",
+        "description": "<p>Make Apple's Translate app support all languages to date. For example, make all iOS 16 languages available to iOS 15. If the tweak doesn't work, restart Translate app and ensure you have internet connection.</p>"
+    },
 ] + youtube + emoji
 
 sileo_keys = [

@@ -2049,6 +2049,42 @@ Description: Flipswitch toggle for Keyboard settings.
 Author: PoomSmart
 Name: Keyboard Flipswitchs
 
+Package: com.ps.latesttranslate
+Version: 4.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./debs/com.ps.latesttranslate_4.0.0_iphoneos-arm64.deb
+Size: 4746
+MD5sum: e3492ce70ae1db459c4013ef88fc84f5
+SHA1: f60054e86530a3939df8f1f60b2438fc883e3d31
+SHA256: 4d284069ac40d0d7c3626c2e9b31ce973efa02e99322fc9536006468adf4787d
+Section: Tweaks
+Description: Make Apple's Translate app support all languages to date.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/latesttranslate.html
+Name: LatestTranslate
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/latesttranslate.json
+
+Package: com.ps.latesttranslate
+Version: 4.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./debs/com.ps.latesttranslate_4.0.0_iphoneos-arm.deb
+Size: 4702
+MD5sum: 4c018e644244aae1aa3f6e4b7e8221c4
+SHA1: d87f039eee209897010b0df2fa1c050b69b58997
+SHA256: cbb85e067b681f410cd8bf2692c321bf03fa111f38dd698ea095f1b745f9e06f
+Section: Tweaks
+Description: Make Apple's Translate app support all languages to date.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/latesttranslate.html
+Name: LatestTranslate
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/latesttranslate.json
+
 Package: com.ps.letmeblock
 Version: 1.0.0
 Architecture: iphoneos-arm
