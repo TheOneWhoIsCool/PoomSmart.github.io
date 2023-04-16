@@ -240,25 +240,6 @@ Name: Apple BT Devices Support
 
 Package: com.ps.apppad
 Version: 1.1.1
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 156
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4), firmware (>= 9.0)
-Conflicts: com.yourepo.isaact1012.requirefullarm64e, com.matrix.requirefull
-Filename: ./debs/springboard/com.ps.apppad_1.1.1_iphoneos-arm64.deb
-Size: 4906
-MD5sum: d35474aaff7d40ed4be2bbd921e92e74
-SHA1: 3fbbd6839959118166c7988bed179a616a7b616e
-SHA256: 0864919ea01918ec077524e8236018cb58da1b5579f36729e42590f946813382
-Section: Tweaks
-Description: Full screen, Split and Slideover for every app on iPad.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/apppad.html
-Name: AppPad
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/apppad.json
-
-Package: com.ps.apppad
-Version: 1.1.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 220
@@ -269,6 +250,25 @@ Size: 6214
 MD5sum: 802ccc67f2463d61ef5ec72644ce0353
 SHA1: 1aa4d716adc31918883e915568d49cf7d9339476
 SHA256: 502b3f1d18c2434aba73ad449ac79ec24896c546aa873695e21ad902ba12e4a6
+Section: Tweaks
+Description: Full screen, Split and Slideover for every app on iPad.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/apppad.html
+Name: AppPad
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/apppad.json
+
+Package: com.ps.apppad
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 172
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4), firmware (>= 9.0)
+Conflicts: com.yourepo.isaact1012.requirefullarm64e, com.matrix.requirefull
+Filename: ./debs/springboard/com.ps.apppad_1.1.2_iphoneos-arm64.deb
+Size: 4532
+MD5sum: a3dba112494a1066e8b5baa17844d664
+SHA1: 57cc49a02b3827cbf8f568a522e26a2337193e29
+SHA256: 077cf5b3f534568c6328a1dcc9429e65f6432d3ae40d1f71985ece85cd9b9de1
 Section: Tweaks
 Description: Full screen, Split and Slideover for every app on iPad.
 Author: PoomSmart

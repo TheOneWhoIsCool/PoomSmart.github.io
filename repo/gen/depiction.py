@@ -162,6 +162,7 @@ tweaks = [
         "min_ios": "9.0",
         "description": "<p>Full screen, Split and Slideover for every app on iPad.</p>",
         "changes": [
+            ["1.1.2", "(Rootless-only) Use com.apple.UIKit as settings domain to work around Fugu15 Max limitation"],
             ["1.1.1", "Fixed tweak not being injected into SpringBoard sometimes"]
         ]
     },
