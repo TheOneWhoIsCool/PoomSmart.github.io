@@ -3821,11 +3821,27 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/retired/com.ps.ytdarker_1.0.3_iphoneos-arm.deb
+Filename: ./debs/youtube/com.ps.ytdarker_1.0.3_iphoneos-arm.deb
 Size: 2908
 MD5sum: 767c4a3e1dfe0e0ab9bfa248485df409
 SHA1: 87e69dc07f8ae1770a3add37686ab532866e6bb2
 SHA256: ee0e239485f3c90bde627169470de6283ad6500162c9bcc42f493a6d31a278e8
+Section: Tweaks
+Description: Enable native darker dark mode on YouTube.
+Author: PoomSmart
+Name: YTDarker
+
+Package: com.ps.ytdarker
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.ytdarker_1.0.3_iphoneos-arm64.deb
+Size: 3000
+MD5sum: 66396b6612d0159b0b62b631ccc83f74
+SHA1: 468aaf51cf4ae73d2e0a0c1b94f30e2042495127
+SHA256: d6b592784b98dcb607e375e421e5f9f433bfa40cf6cb73fbfca98c88cebf6893
 Section: Tweaks
 Description: Enable native darker dark mode on YouTube.
 Author: PoomSmart
