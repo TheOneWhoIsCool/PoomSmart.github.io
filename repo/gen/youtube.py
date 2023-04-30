@@ -40,6 +40,7 @@ youtube = [
         "description": "<p>Enable native PiP in iOS YouTube app.</p>\
             <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 15.10.4 but full compatibility for older versions is low-priority.</p>",
         "changes": [
+            ["1.7.19-2", "Updated ar localization"],
             ["1.7.19", "You may now enable or disable YouPiP from its settings"],
             ["1.7.18", "Fixed PiP not activating for some people"],
             ["1.7.17", "Fixed \"Fake YouTube version\" not restoring the old video bar for some people"],
@@ -249,6 +250,9 @@ youtube = [
         "title": "YouTube X",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>No ads and background playback for iOS YouTube app.</p>"
+        "description": "<p>No ads and background playback for iOS YouTube app.</p>",
+        "changes": [
+            ["1.2.4", "Hide statement_banner.view (YouTube Music Premium Ads)"]
+        ]
     },
 ]
