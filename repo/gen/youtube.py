@@ -252,7 +252,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>No ads and background playback for iOS YouTube app.</p>",
         "changes": [
-            ["1.2.4", "Hide statement_banner.view (YouTube Music Premium Ads)"]
+            ["1.2.5", "Hide statement_banner.eml ads"]
         ]
     },
 ]
