@@ -938,6 +938,44 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
 Name: EmojiAttributes
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
 
+Package: com.ps.emojiattributes
+Version: 1.7.0~b4
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 632
+Depends: firmware (>= 5.1), mobilesubstrate, com.opa334.libundirect (>= 1.0)
+Conflicts: com.ps.flexmoji
+Filename: ./debs/emojiport/com.ps.emojiattributes_1.7.0_b4_iphoneos-arm.deb
+Size: 54410
+MD5sum: 6a7e9c9f5de8c1fa9ecb70f73a832162
+SHA1: f7d914f07896d2f74da3a1a24f445f31f4537b8e
+SHA256: b29c08113e465e3fcf5aeb02645854ebbf5e714a39243214e3173585f9c8f985
+Section: Tweaks
+Description: Various under-the-hood fixes for emoji display.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
+Name: EmojiAttributes
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
+
+Package: com.ps.emojiattributes
+Version: 1.7.0~b4
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 508
+Depends: firmware (>= 5.1), mobilesubstrate, com.opa334.libundirect (>= 1.0)
+Conflicts: com.ps.flexmoji
+Filename: ./debs/emojiport/com.ps.emojiattributes_1.7.0~b4_iphoneos-arm64.deb
+Size: 43524
+MD5sum: 64c1ee38acd2cb7a585a6e1e2b6aefe7
+SHA1: 26a01a18b8e1fb3308e6871bc521c1da44720eb9
+SHA256: df6cca198c20ffde28049d53ebf8e40be162581104ec6bffea44daf9c646cf77
+Section: Tweaks
+Description: Various under-the-hood fixes for emoji display.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
+Name: EmojiAttributes
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
+
 Package: com.ps.emojidarkstyle
 Version: 1.0.6
 Architecture: iphoneos-arm

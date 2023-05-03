@@ -14,6 +14,10 @@ emoji = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
+            ["1.7.0~b4", [
+                "Rootless: Use alternative libicucore hooks to work around ElleKit issues",
+                "Rootful: Optimized hooks"
+            ]],
             ["1.7.0~b2", [
                     "Initial support for iOS 16.4 beta emojis",
                     "Fixed installation issue on readonly filesystems devices",
