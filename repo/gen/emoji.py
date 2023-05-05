@@ -15,7 +15,7 @@ emoji = [
         "min_ios": "5.1",
         "changes": [
             ["1.7.0~b4", [
-                "Rootless (PULLED): Use alternative libicucore hooks to work around ElleKit issues",
+                "Rootless: Use alternative libicucore hooks to work around ElleKit issues (REQUIRE ElleKit 0.6+)",
                 "Rootful: Optimized hooks"
             ]],
             ["1.7.0~b2", [
