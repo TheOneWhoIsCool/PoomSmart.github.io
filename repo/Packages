@@ -2267,6 +2267,38 @@ Depiction: https://poomsmart.github.io/repo/depictions/libsubstitrate.html
 Name: libSubstitrate
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/libsubstitrate.json
 
+Package: com.ps.linebreakliberator
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Filename: ./debs/com.ps.linebreakliberator_1.0.0_iphoneos-arm64.deb
+Size: 3474
+MD5sum: 46f6c1469984db54bf562732033a46e7
+SHA1: 648d2583216a2eabbae5bd76d20487146e4da23b
+SHA256: 077be15acec8be233441b2b012ddc2be54c8b356d69a0e4247e95071e79fa7a4
+Section: Tweaks
+Description: Safari Quick Search results without truncation.
+Author: PoomSmart
+Name: LineBreakLiberator
+
+Package: com.ps.linebreakliberator
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Filename: ./debs/com.ps.linebreakliberator_1.0.0_iphoneos-arm.deb
+Size: 3142
+MD5sum: 177d051f00d10aa6a846f79996703ca3
+SHA1: ed7e4b13981d317fa7a76612c2a63314b6c81294
+SHA256: b16ba62191ff10a79456b45c1e87c623176f3e2a07abf8521ade4914a2121a16
+Section: Tweaks
+Description: Safari Quick Search results without truncation.
+Author: PoomSmart
+Name: LineBreakLiberator
+
 Package: com.ps.livetextenabler
 Version: 1.1.1
 Architecture: iphoneos-arm
