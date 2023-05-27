@@ -31,7 +31,7 @@ tweaks = [
         "title": "LetMeBlock",
         "min_ios": "9.0",
         "changes": [
-            ["1.0.1", "Added support for rootless jailbreaks (/var/jb)"],
+            ["1.1.0", "Added support for rootless jailbreaks (/var/jb/etc/hosts)"],
             ["1.0.0", "Increased Jetsam memory limit to 512 MB"]
         ],
         "description": "<p><a href=\"https://github.com/PoomSmart/LetMeBlock/blob/master/README.md\">README</a></p>"
