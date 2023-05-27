@@ -8,8 +8,13 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Unlock 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
+            ["1.4.0", [
+                    "Force VP9 formats only for 1440p and higher",
+                    "Updated spoof version to 15.7.6 (for iOS 14-)"
+                ]
+            ],
             ["1.3.5", [
-                    "Updated spoof version to 15.7.2 (for iOS 14-)"
+                    "Updated spoof version to 15.7.2 (for iOS 14-)",
                     "Updated tr, zh_cn localization"
                 ]
             ],
