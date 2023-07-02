@@ -3672,6 +3672,48 @@ Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
 Name: YouPiP
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
 
+Package: com.ps.youpip
+Version: 1.7.20
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 300
+Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture | com.cabralcole.forceinpicture
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Provides: com.spicat.youpip
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.7.20_iphoneos-arm64.deb
+Size: 29566
+MD5sum: 65d08246fb55ed6af14fa6fe8ff48f62
+SHA1: 9a3df34fdb1d33de330671865e6bc753a100f9c3
+SHA256: 5181da7d4b48b08e20afad56a2469fa4da51e82de8a0e03a77b35e63fb566ac3
+Section: Tweaks
+Description: Enable native PiP in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Name: YouPiP
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
+Package: com.ps.youpip
+Version: 1.7.20
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 300
+Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture | com.cabralcole.forceinpicture
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Provides: com.spicat.youpip
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.7.20_iphoneos-arm.deb
+Size: 29586
+MD5sum: 70249394f2c299f0fb4bf52bd6291053
+SHA1: f372134e8a33149a93a5aab5aa262622018d3435
+SHA256: 808b2a586f1c4a89daf8921601cefbe52d94ef426dcf1354d3d3538a35e364df
+Section: Tweaks
+Description: Enable native PiP in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Name: YouPiP
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
 Package: com.ps.youremembercaption
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -3991,6 +4033,42 @@ Size: 2640
 MD5sum: 4480bb27e9ed91522e52413221419c27
 SHA1: e36c5bff69ef49fef21d6b60fb0084d16a1a9583
 SHA256: 1a68bdf6c981dd5e5ca7b9eb8aebc04130d5788a73bcf3af15282f172875c69a
+Section: Tweaks
+Description: Revert to the original video quality selector in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytclassicvideoquality.html
+Name: YTClassicVideoQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytclassicvideoquality.json
+
+Package: com.ps.ytclassicvideoquality
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.ytclassicvideoquality_1.1.0_iphoneos-arm.deb
+Size: 2332
+MD5sum: 2c878d87de509c8b18fa5e83b401490d
+SHA1: 500c7c10d2c0e81d88656e495aeca237b090fe5a
+SHA256: a52e5673ad00a76be02494b4fdd881e8359a3b524a41ef3fac6e7e120b17e0da
+Section: Tweaks
+Description: Revert to the original video quality selector in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytclassicvideoquality.html
+Name: YTClassicVideoQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytclassicvideoquality.json
+
+Package: com.ps.ytclassicvideoquality
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.ytclassicvideoquality_1.1.0_iphoneos-arm64.deb
+Size: 2396
+MD5sum: c8347e8995bfb03e5219b226cdd30ee4
+SHA1: 1f7f9b12592c10a5e178ccd10df47082829e675c
+SHA256: 04b06d62f46e10839c852a94e0ac366a70e5e3e199fec219a26122f6a4585a77
 Section: Tweaks
 Description: Revert to the original video quality selector in YouTube app.
 Author: PoomSmart
