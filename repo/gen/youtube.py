@@ -257,6 +257,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>No ads and background playback for iOS YouTube app.</p>",
         "changes": [
+            ["1.4.0", "Switched to collection view hook, Block more kinds of ads"],
             ["1.3.0", "Improved hooks"],
             ["1.2.6", "Added more hooks"],
             ["1.2.5", "Hide statement_banner.eml ads"]

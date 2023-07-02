@@ -15,7 +15,6 @@ screenshots_dir = os.path.join(root, '../screenshots')
 env = Environment(loader=FileSystemLoader(templates_dir), trim_blocks=True, lstrip_blocks=True)
 html_template = env.get_template('index.html')
 
-
 tweaks = [
     {
         "file": "60fps",
