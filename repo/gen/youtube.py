@@ -253,6 +253,16 @@ youtube = [
         ]
     },
     {
+        "file": "youquality",
+        "title": "YouQuality",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "description": "<p>Add a video quality to the video overlay where you can easily change the video quality.</p>",
+        "changes": [
+            ["1.0.0", "Initial release"]
+        ]
+    },
+    {
         "file": "ytx",
         "title": "YouTube X",
         "min_ios": "11.0",
