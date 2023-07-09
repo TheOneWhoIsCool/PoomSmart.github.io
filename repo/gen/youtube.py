@@ -257,9 +257,10 @@ youtube = [
         "title": "YouQuality",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>Add a video quality to the video overlay where you can easily change the video quality.</p>",
+        "description": "<p>Add a video quality to the video overlay where you can easily change the video quality.</p>\
+            <p>Install YTClassicVideoQuality alongside this tweak to make video quality list appear right away.</p>",
         "changes": [
-            ["1.0.0", "Initial release"]
+            ["1.0.0-1", "Added ru and zh_cn localization"]
         ]
     },
     {
