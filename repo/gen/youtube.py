@@ -242,12 +242,23 @@ youtube = [
         "description": "<p>Remove popup when you like/dislike videos; those saying you liked the video and feedback shared with the creator.</p>"
     },
     {
+        "file": "ytvideoquality",
+        "title": "YTVideoQuality",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "description": "<p>A helper tweak to add buttons on YouTube's video overlay. Used by YouMute and YouQuality.</p>",
+        "changes": [
+            ["1.0.0", "Initial release"]
+        ]
+    },
+    {
         "file": "youmute",
         "title": "YouMute",
         "min_ios": "11.0",
         "tintColor": "red",
         "description": "<p>Add a mute button to the video overlay where you can directly mute or unmute the video.</p>",
         "changes": [
+            ["1.2.0", "Depends on YTVideoOverlay helper tweak"],
             ["1.1.1", "Corrected mute button position when placed at the bottom and the audio track button is visible"],
             ["1.1.0", "Added setting page, allowing you to toggle tweak and change mute button position"]
         ]
@@ -260,6 +271,7 @@ youtube = [
         "description": "<p>Add a video quality to the video overlay where you can easily change the video quality.</p>\
             <p>Install YTClassicVideoQuality alongside this tweak to make video quality list appear right away.</p>",
         "changes": [
+            ["1.1.0", "Depends on YTVideoOverlay helper tweak"],
             ["1.0.0-1", "Added ru and zh_cn localization"]
         ]
     },
