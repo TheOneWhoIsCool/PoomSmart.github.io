@@ -242,8 +242,8 @@ youtube = [
         "description": "<p>Remove popup when you like/dislike videos; those saying you liked the video and feedback shared with the creator.</p>"
     },
     {
-        "file": "ytvideoquality",
-        "title": "YTVideoQuality",
+        "file": "ytvideooverlay",
+        "title": "YTVideoOverlay",
         "min_ios": "11.0",
         "tintColor": "red",
         "description": "<p>A helper tweak to add buttons on YouTube's video overlay. Used by YouMute and YouQuality.</p>",
