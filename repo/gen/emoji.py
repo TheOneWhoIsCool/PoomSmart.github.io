@@ -1,9 +1,10 @@
 emoji = [
     {
         "file": "emojiport10resources",
-        "title": "emojiport10resources",
+        "title": "EmojiPort Resources (iOS 10+)",
         "min_ios": "10.0",
         "changes": [
+            ["1.5.0", "Updated to iOS 17.0b4 assets"],
             ["1.4.2", "Updated to iOS 16.4 assets"],
             ["1.3.2", "Updated to iOS 16 assets"]
         ],
@@ -14,6 +15,7 @@ emoji = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
+            ["1.7.1", "Use _NSGetExecutablePath to detect process type"],
             ["1.7.0~b4", [
                 "Rootless: Use alternative libicucore hooks to work around ElleKit issues (REQUIRE ElleKit 0.6+)",
                 "Rootful: Optimized hooks"
@@ -36,6 +38,7 @@ emoji = [
         "title": "EmojiFontManager",
         "min_ios": "6.0",
         "changes": [
+            ["1.3.4", "Use _NSGetExecutablePath to detect process type"],
             ["1.3.3", [
                 "Rootless: Disabled injection into WebContent due to ongoing issues with ElleKit",
                 "Rootful: Fixed theming not working on iOS 12"
@@ -131,6 +134,10 @@ emoji = [
         "max_ios": "11.4.1",
         "strict_range": True,
         "changes": [
+            ["1.4.0", [
+                "Depends on EmojiPort Resources (iOS 10+) 1.5.0+",
+                "Use _NSGetExecutablePath to detect process type"
+            ]],
             ["1.3.7", "Added fixup for older iOS where handshake emoji doesn't get skinned"]
         ],
         "description": "<p>Latest emojis for iOS 10.0 - 11.4</p>\
@@ -144,6 +151,10 @@ emoji = [
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
+            ["1.4.3", [
+                "Depends on EmojiPort Resources (iOS 10+) 1.5.0+",
+                "Use _NSGetExecutablePath to detect process type"
+            ]],
             ["1.4.2~b2", "Fixed tweak not loading on some rootful devices"],
             ["1.4.2~b1", "(Rootless-only) Disabled injection into WebContent due to ElleKit issues"],
             ["1.4.1", [
