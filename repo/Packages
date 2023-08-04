@@ -3966,6 +3966,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/youquality.html
 Name: YouQuality
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youquality.json
 
+Package: com.ps.youquality
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 212
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 1.1.0)
+Filename: ./debs/youtube/youquality/com.ps.youquality_1.1.4_iphoneos-arm.deb
+Size: 14790
+MD5sum: 9f5d337d632bc7e3e4378077f52bb746
+SHA1: 6f5a1a5dd452f876ec1397eec42afa58928ffb96
+SHA256: bc73596e54dfb8cd4fdad32fbb4bfdb9c81c36a2630c035ab60400ff42699ed6
+Section: Tweaks
+Description: View/change video quality in YouTube faster.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youquality.html
+Name: YouQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youquality.json
+
+Package: com.ps.youquality
+Version: 1.1.4
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 212
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 1.1.0)
+Filename: ./debs/youtube/youquality/com.ps.youquality_1.1.4_iphoneos-arm64.deb
+Size: 14836
+MD5sum: 1c50aaf9cac1c67194b341ae70f8d8d8
+SHA1: 750558b7f95fcb4c83c29157fe11f8d4e8d36f11
+SHA256: b7c6844733e8b109f3042163faf148f086cbeec68d1ae0fbd46841d6a83813c1
+Section: Tweaks
+Description: View/change video quality in YouTube faster.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youquality.html
+Name: YouQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youquality.json
+
 Package: com.ps.youremembercaption
 Version: 1.0.0
 Architecture: iphoneos-arm
