@@ -2665,6 +2665,42 @@ Name: NoYTPremium
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/noytpremium.json
 
 Package: com.ps.oneuiefm
+Version: 15.0.0~beta6
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.oneuiefm_15.0.0~beta6_iphoneos-arm.deb
+Size: 758
+MD5sum: 2df93864278df56c67063751f4fc4a82
+SHA1: 7d9f9d76853f8d9e471bb419300e84690e393c07
+SHA256: 405acaa6c304ec3506d839c9178acb5b90c5951678efd9f773dae7cbc582bab2
+Section: Fonts (EFM)
+Description: Samsung One UI 6.0 Beta Emoji (Unicode 15.0) (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/oneuiefm.html
+Name: Samsung One UI 6.0 Unicode 15.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/oneuiefm.json
+
+Package: com.ps.oneuiefm
+Version: 15.0.0~beta6
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.oneuiefm_15.0.0~beta6_iphoneos-arm64.deb
+Size: 756
+MD5sum: 39b16409bd6759f1f96acf28c2548e96
+SHA1: 09fc377d174cd881d9e00003b78fe9460fc783c0
+SHA256: 9dc57a8bf8bef911e9f030a6ea836d0755bcd1f6c016614374221713cd5fdb7f
+Section: Fonts (EFM)
+Description: Samsung One UI 6.0 Beta Emoji (Unicode 15.0) (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/oneuiefm.html
+Name: Samsung One UI 6.0 Unicode 15.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/oneuiefm.json
+
+Package: com.ps.oneuiefm
 Version: 15.0.0~d
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
