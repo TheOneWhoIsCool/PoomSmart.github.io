@@ -286,7 +286,7 @@ emoji = [
         "title": "Samsung One UI Unicode 15.0 (EFM)",
         "screenshots": True,
         "changes": [
-            ["15.0.0~beta6", "Updated to One UI 6 beta"],
+            ["15.0.1~beta6", "Updated to One UI 6 beta"],
             ["15.0.0", "Updated to Unicode 15.0"]
         ],
         "description": "<p>Samsung One UI (5.0 or 6 beta) emoji font for EmojiFontManager (Unicode 15.0).</p><br/>\
