@@ -1453,24 +1453,6 @@ Author: PoomSmart
 Name: EmojiLocalization
 
 Package: com.ps.emojiport10resources
-Version: 1.3.2
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 123016
-Depends: firmware (>= 10.0)
-Filename: ./debs/emojiport/com.ps.emojiport10resources_1.3.2_iphoneos-arm.deb
-Size: 30685034
-MD5sum: dad5b7683c3b4346abbc4b76bc4b3656
-SHA1: 2f836dd1b9d770bd299f2b665d11ea3b42028e37
-SHA256: 8cbd40fe8101d88dde44b8dd21ba4c0204e9e97ab75540c6fdaae99d4e06eb22
-Section: Tweaks
-Description: Latest emoji localization and metadata for iOS 10+
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport10resources.html
-Name: EmojiPort Resources (iOS 10+)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport10resources.json
-
-Package: com.ps.emojiport10resources
 Version: 1.4.2
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
@@ -1535,6 +1517,42 @@ Size: 56465388
 MD5sum: ff35598969904801a705c0bc5f7d3e4e
 SHA1: 677212a6401d7ab72ee3a5ed9ff3f993d7609965
 SHA256: 08489b9349790de5141fdbfa11b82a13a7a6152c4b8f6ebd1a36d9f0cfaf058f
+Section: Tweaks
+Description: Latest emoji localization and metadata for iOS 10+
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport10resources.html
+Name: EmojiPort Resources (iOS 10+)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport10resources.json
+
+Package: com.ps.emojiport10resources
+Version: 1.5.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 216508
+Depends: firmware (>= 10.0)
+Filename: ./debs/emojiport/com.ps.emojiport10resources_1.5.1_iphoneos-arm64.deb
+Size: 55320614
+MD5sum: a6cc893c649dcc7850b935bb9da055b8
+SHA1: b75e75ac48442f986cf0280eaff6276445f74747
+SHA256: ceb3b95c8134ec9cbffaa00977402129ed4b252ee7ae1e61fbe8378f8135704c
+Section: Tweaks
+Description: Latest emoji localization and metadata for iOS 10+
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport10resources.html
+Name: EmojiPort Resources (iOS 10+)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport10resources.json
+
+Package: com.ps.emojiport10resources
+Version: 1.5.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 216508
+Depends: firmware (>= 10.0)
+Filename: ./debs/emojiport/com.ps.emojiport10resources_1.5.1_iphoneos-arm.deb
+Size: 55356868
+MD5sum: 356d5900dbc676b79651f6b7d0be2196
+SHA1: f70c2eb2157f109a126d97b21c24a7a8d319e984
+SHA256: 9592df784fcba1ed5b2b0a6135a22c394fa614ffc485beb400bbf07faa332b45
 Section: Tweaks
 Description: Latest emoji localization and metadata for iOS 10+
 Author: PoomSmart
@@ -4026,27 +4044,6 @@ Name: YouPiP
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
 
 Package: com.ps.youpip
-Version: 1.7.20
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 300
-Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture | com.cabralcole.forceinpicture
-Conflicts: com.spicat.youpip
-Replaces: com.spicat.youpip
-Provides: com.spicat.youpip
-Filename: ./debs/youtube/youpip/com.ps.youpip_1.7.20_iphoneos-arm64.deb
-Size: 29566
-MD5sum: 65d08246fb55ed6af14fa6fe8ff48f62
-SHA1: 9a3df34fdb1d33de330671865e6bc753a100f9c3
-SHA256: 5181da7d4b48b08e20afad56a2469fa4da51e82de8a0e03a77b35e63fb566ac3
-Section: Tweaks
-Description: Enable native PiP in YouTube app.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
-Name: YouPiP
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
-
-Package: com.ps.youpip
 Version: 1.7.21
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
@@ -4225,42 +4222,6 @@ Size: 14600
 MD5sum: 327ad2c883f3f5c163cd133482bfb2a4
 SHA1: f8f003bb487c345fba44ed7b8a1f720c2fcc5b1a
 SHA256: 655c085449e3f635a5e7db7b72c6aa23d73de57185a92eaf2cb9bd42bc66ca1d
-Section: Tweaks
-Description: View/change video quality in YouTube faster.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/youquality.html
-Name: YouQuality
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youquality.json
-
-Package: com.ps.youquality
-Version: 1.1.3
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 212
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 1.1.0)
-Filename: ./debs/youtube/youquality/com.ps.youquality_1.1.3_iphoneos-arm64.deb
-Size: 14770
-MD5sum: 24afa231fc1a1a3440dd1cec8d558805
-SHA1: 487608c1df43ce2ee4bf67160f9e110a92a46af7
-SHA256: 88e56ef05241087539ca6fdbcdb8e0e5dfe754bc8efd7514471909ba1d977031
-Section: Tweaks
-Description: View/change video quality in YouTube faster.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/youquality.html
-Name: YouQuality
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youquality.json
-
-Package: com.ps.youquality
-Version: 1.1.3-1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 212
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 1.1.0)
-Filename: ./debs/youtube/youquality/com.ps.youquality_1.1.3-1_iphoneos-arm.deb
-Size: 14720
-MD5sum: 56a394117a4c8aa5b6395d4fe34084ec
-SHA1: 1dad78eeabdea97ac12164af6f6dbf4caea34d63
-SHA256: 100aa4c6386adf72354f24d611d41e5b1c3212c9da12b4292b953420317a75f3
 Section: Tweaks
 Description: View/change video quality in YouTube faster.
 Author: PoomSmart
@@ -5307,42 +5268,6 @@ Name: YouTube X
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
 
 Package: com.ps.ytx
-Version: 1.2.6
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
-Filename: ./debs/youtube/ytx/com.ps.ytx_1.2.6_iphoneos-arm64.deb
-Size: 3574
-MD5sum: 9e6343bf9a53c849bed96282c83cd20c
-SHA1: 94ce616f30b4729b86c49d18ed11e37d8c68c454
-SHA256: 17aaadef6dcf6d2316f21f708bbcbf21791011090a4e5cef0cb9014437b4eafa
-Section: Tweaks
-Description: A lightweight YouTube improvement tweak.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
-Name: YouTube X
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
-
-Package: com.ps.ytx
-Version: 1.2.6
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
-Filename: ./debs/youtube/ytx/com.ps.ytx_1.2.6_iphoneos-arm.deb
-Size: 3498
-MD5sum: 80eaf29b0f08be12d349ba0806e049f1
-SHA1: b3c301c6a6c30c581375879ae9f2b1e9ed91dfd0
-SHA256: 44c95394777c5372aa4daddba1fc34b64d253f943dab24dc380185e849af374e
-Section: Tweaks
-Description: A lightweight YouTube improvement tweak.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
-Name: YouTube X
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
-
-Package: com.ps.ytx
 Version: 1.3.0
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
@@ -5371,78 +5296,6 @@ Size: 3504
 MD5sum: babc11ca51985833c90b6b128bd471af
 SHA1: b5a9dfbc91e0cecc6c69cd9c5b05e4b8adb9e83b
 SHA256: 23a0fcc81057a21589cb0b3a00b46e960ce7537f36bf372d61f0d94f29abcccb
-Section: Tweaks
-Description: A lightweight YouTube improvement tweak.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
-Name: YouTube X
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
-
-Package: com.ps.ytx
-Version: 1.4.0
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
-Filename: ./debs/youtube/ytx/com.ps.ytx_1.4.0_iphoneos-arm.deb
-Size: 3582
-MD5sum: f397e66a636830df51aa34d633216b8c
-SHA1: f2c58fd4e8037baaff7f3c1c3648b81646c4c625
-SHA256: c62b2b8e70db79468c4fc64fe5f3ed9b220325bf1faf24062cc90bdcda476edd
-Section: Tweaks
-Description: A lightweight YouTube improvement tweak.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
-Name: YouTube X
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
-
-Package: com.ps.ytx
-Version: 1.4.0
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
-Filename: ./debs/youtube/ytx/com.ps.ytx_1.4.0_iphoneos-arm64.deb
-Size: 3640
-MD5sum: d04b4d8d009396fa31b3b0579fc67575
-SHA1: f10a82267e3ae361f480e3690de825886d1a9a8d
-SHA256: 304942a0acb393a46ea06a03dd4d365e53f55166ed078ff97273027d0d452573
-Section: Tweaks
-Description: A lightweight YouTube improvement tweak.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
-Name: YouTube X
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
-
-Package: com.ps.ytx
-Version: 1.4.1
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
-Filename: ./debs/youtube/ytx/com.ps.ytx_1.4.1_iphoneos-arm64.deb
-Size: 3674
-MD5sum: 6e01ed9dd2c7b420df10f8f4b51ce4f6
-SHA1: 3032a12a5e377b364cbb2a134a2c25a4eaa91ef6
-SHA256: 245268d01da5e533fd5ae1ba5b05f39ff32364517844f17730d268cf824829e8
-Section: Tweaks
-Description: A lightweight YouTube improvement tweak.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
-Name: YouTube X
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
-
-Package: com.ps.ytx
-Version: 1.4.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
-Filename: ./debs/youtube/ytx/com.ps.ytx_1.4.1_iphoneos-arm.deb
-Size: 3618
-MD5sum: e172f91a43659ddb64e616a1e237ee75
-SHA1: 974ed9dbe41665716d7130c254720578cae88bef
-SHA256: 269fbd22e63c02535db1607dc0c920a123be567f1648b84f9597ddbeb542ecc1
 Section: Tweaks
 Description: A lightweight YouTube improvement tweak.
 Author: PoomSmart

@@ -45,8 +45,7 @@ youtube = [
         "description": "<p>Enable native PiP in iOS YouTube app.</p>\
             <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 15.10.4 but full compatibility for older versions is low-priority.</p>",
         "changes": [
-            ["1.7.21", "Corrected type encoding for the remaining methods"],
-            ["1.7.20", "Corrected type encoding for some added methods"],
+            ["1.7.21", "Corrected type encoding for the added methods"],
             ["1.7.19-2", "Updated ar localization"],
             ["1.7.19", "You may now enable or disable YouPiP from its settings"],
             ["1.7.18", "Fixed PiP not activating for some people"],
@@ -274,8 +273,7 @@ youtube = [
         "description": "<p>Add a video quality to the video overlay where you can easily change the video quality.</p>\
             <p>Install YTClassicVideoQuality alongside this tweak to make video quality list appear right away.</p>",
         "changes": [
-            ["1.1.4", "Make label displays for non 60 FPS 2K and 4K"],
-            ["1.1.3", "Make label displays for non 60 FPS 720p and 1080p"],
+            ["1.1.4", "Make label displays for non 60 FPS 720p, 1080p, 2K and 4K"],
             ["1.1.2-1", "Added ja and tr localization"],
             ["1.1.2", "Use YouTube-styled font for the quality label (credits to @dayanch96)"],
             ["1.1.1", "Depends on YTVideoOverlay helper tweak"],
@@ -289,11 +287,8 @@ youtube = [
         "tintColor": "red",
         "description": "<p>No ads and background playback for iOS YouTube app.</p>",
         "changes": [
-            ["1.4.2", "Block more kinds of ads"],
-            ["1.4.1", "Block more kinds of ads"],
-            ["1.4.0", "Switched to collection view hook, Block more kinds of ads"],
+            ["1.4.2", "Switched to collection view hook, Block more kinds of ads"],
             ["1.3.0", "Improved hooks"],
-            ["1.2.6", "Added more hooks"],
             ["1.2.5", "Hide statement_banner.eml ads"]
         ]
     },
