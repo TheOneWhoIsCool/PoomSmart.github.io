@@ -778,6 +778,22 @@ Description: Flipswitch for volume change with buttons
 Author: PoomSmart
 Name: Change Vol With Buttons Flipswitch
 
+Package: com.ps.cyarchfix
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 120
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0)
+Filename: ./debs/cydia/com.ps.cyarchfix_1.0.0_iphoneos-arm.deb
+Size: 3476
+MD5sum: 1327d7d35798cf839966ea3de250a066
+SHA1: bd6b17c075f97e346462ed3e9cd6b5d4b16ff5ed
+SHA256: 4c6caf56f17823922f1a2784eff0116357e44d7dd7207469ac98856149439f3f
+Section: Tweaks
+Description: Hide iphoneos-arm64 packages from Cydia.
+Author: PoomSmart
+Name: cyarchfix
+
 Package: com.ps.efmfontdl
 Version: 1.0.3
 Architecture: iphoneos-arm64
