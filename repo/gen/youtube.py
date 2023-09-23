@@ -161,6 +161,7 @@ youtube = [
             This tweak adds a new section named \"A/B\" in the app settings where all features can be toggled freely by you.\
             There are over 1000 features available. Some of them are already overriden by tweaks like YTABGoodies and its predecessors.</p>",
         "changes": [
+            ["1.5.0-2", "Added ro localization"],
             ["1.5.0-1", "Updated tr localization"],
             ["1.5.0", [
                     "Tap on each A/B setting to reveal its class, copy it to clipboard or delete itself from the modified list",
@@ -248,6 +249,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>A helper tweak to add buttons on YouTube's video overlay. Used by YouMute and YouQuality.</p>",
         "changes": [
+            ["1.1.1", "Fixed incorrect button positioning in some scenarios"],
             ["1.1.0-1", "Added tr localization"],
             ["1.1.0", "Fixed crashing due to invalid button positioning"]
         ]
