@@ -5254,10 +5254,10 @@ Maintainer: PoomSmart
 Installed-Size: 108
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
 Filename: ./debs/youtube/ytvideooverlay/com.ps.ytvideooverlay_1.1.1_iphoneos-arm.deb
-Size: 9408
-MD5sum: 8967a9ad687c852ed380b58d4084cff2
-SHA1: cac1eaa7e5a6f374b7efe87bfaad0a93c43f420e
-SHA256: e34da8f9a44adf56874f03b145104b2da970b107419018edceb5465da4d1fc6e
+Size: 9434
+MD5sum: b154460b6a8754250cd98884f5c16fbf
+SHA1: af45290cc9bc226666562a6fdd54c96d0d6bc02f
+SHA256: 113d1989f99dbc471402bef1c7fd922bebb397ff277ceedb3f25b5cd33e23342
 Section: Tweaks
 Description: A helper tweak to add buttons on YouTube video overlay.
 Author: PoomSmart
@@ -5272,10 +5272,10 @@ Maintainer: PoomSmart
 Installed-Size: 108
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
 Filename: ./debs/youtube/ytvideooverlay/com.ps.ytvideooverlay_1.1.1_iphoneos-arm64.deb
-Size: 9468
-MD5sum: 52eff37965e05ed361d1a7b2711afecf
-SHA1: 2caca1cafe23dc6308a611efe2ff612a252200c9
-SHA256: 20e3d8f20e2856307a2c8abafb6f6d7df5248b2199724a4c1a7ba31ea754c58b
+Size: 9500
+MD5sum: 5db3570808e21ca7655a5b4cad50eff4
+SHA1: ae47cb055f70bdb9d0a5c746c216a2b652d1ab37
+SHA256: 3e16723c2fdf4b9f019b820f743cf50f984d97da3a9c30922459a2e0edce4c3d
 Section: Tweaks
 Description: A helper tweak to add buttons on YouTube video overlay.
 Author: PoomSmart
