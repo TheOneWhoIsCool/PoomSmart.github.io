@@ -2171,6 +2171,38 @@ Description: Best UIKit graphics for older devices.
 Author: PoomSmart
 Name: HighGraphics
 
+Package: com.ps.highgraphics
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 7.0)
+Filename: ./debs/com.ps.highgraphics_1.1.0_iphoneos-arm.deb
+Size: 5070
+MD5sum: 0e00ad70beeba96ea5170be849b023f0
+SHA1: 1d8d5079ddee18d21302e395893cdb41c7acd2e1
+SHA256: e05ee0126a19956a48ee9e05477ba09edc5dd0ae44c945fa8175591f38a2eefc
+Section: Tweaks
+Description: Best UIKit graphics for older devices.
+Author: PoomSmart
+Name: HighGraphics
+
+Package: com.ps.highgraphics
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 7.0)
+Filename: ./debs/com.ps.highgraphics_1.1.0_iphoneos-arm64.deb
+Size: 4222
+MD5sum: 750a6ca53d714a8e456797071a6d580a
+SHA1: fe9ef05fbd713187d184c09720a0bf58c8e1312e
+SHA256: 6dba3ab16ed0d5ac658d84f28f106bea88fd418dd4efdee435f01de9d3dca14b
+Section: Tweaks
+Description: Best UIKit graphics for older devices.
+Author: PoomSmart
+Name: HighGraphics
+
 Package: com.ps.igclassiclayout
 Version: 1.0.2
 Architecture: iphoneos-arm
