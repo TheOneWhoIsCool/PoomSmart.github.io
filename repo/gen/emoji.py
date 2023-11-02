@@ -274,12 +274,13 @@ emoji = [
     },
     {
         "file": "openmojiefm",
-        "title": "OpenMoji Unicode 14.0 (EFM)",
+        "title": "OpenMoji Unicode 15.0 (EFM)",
         "screenshots": True,
         "changes": [
+            ["15.0.0", "Updated to Unicode 15.0"],
             ["14.0.4", "Theme 00a9 and 00ae emojis"]
         ],
-        "description": "<p>OpenMoji emoji font for EmojiFontManager (Unicode 14.0).</p><br/>\
+        "description": "<p>OpenMoji emoji font for EmojiFontManager (Unicode 15.0).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
             <p>Refer to <a href=\"https://github.com/hfg-gmuend/openmoji/blob/master/LICENSE.txt\">here</a> for licensing.</p>"
     },
