@@ -8,6 +8,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Unlock 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
+            ["1.4.0-1", "Updated ja localization"],
             ["1.4.0", [
                     "Force VP9 formats only for 1440p and higher",
                     "Updated spoof version to 15.7.6 (for iOS 14-)"
@@ -249,6 +250,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>A helper tweak to add buttons on YouTube's video overlay. Used by YouMute and YouQuality.</p>",
         "changes": [
+            ["1.1.1-1", "Updated ja localization"],
             ["1.1.1", "Fixed incorrect button positioning in some scenarios"],
             ["1.1.0-1", "Added tr localization"],
             ["1.1.0", "Fixed crashing due to invalid button positioning"]
