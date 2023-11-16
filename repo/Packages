@@ -4963,6 +4963,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytshortsprogress.html
 Name: YTShortsProgress
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytshortsprogress.json
 
+Package: com.ps.ytshortsprogress
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.ytshortsprogress_1.0.3_iphoneos-arm.deb
+Size: 2598
+MD5sum: 31a795b12c7cdebf9bb4281089625c8f
+SHA1: 1b6ecc280204b12db5013f280ee0b56a6eeeecf2
+SHA256: 730b001d594f25653cdbac9be867d159173c08e76756952be0498b547f537f73
+Section: Tweaks
+Description: Enable YouTube shorts progress/scrubber.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytshortsprogress.html
+Name: YTShortsProgress
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytshortsprogress.json
+
+Package: com.ps.ytshortsprogress
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.ytshortsprogress_1.0.3_iphoneos-arm64.deb
+Size: 2662
+MD5sum: 34d5c7ce211fc6443686ae0b8680d1d5
+SHA1: 9c06542cebecd9ac2f68b447f78e1969cbbb93e0
+SHA256: 09c06cfd04f86d64b70e3252dd410a2eea6e8562a6bfd4fa60883a9bc995bf26
+Section: Tweaks
+Description: Enable YouTube shorts progress/scrubber.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytshortsprogress.html
+Name: YTShortsProgress
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytshortsprogress.json
+
 Package: com.ps.ytsilentvote
 Version: 1.0.0
 Architecture: iphoneos-arm
