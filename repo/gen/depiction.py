@@ -304,7 +304,7 @@ tweaks = [
         "file": "advancedmapenabler",
         "title": "Advanced Map Enabler",
         "min_ios": "15.0",
-        "description": "<p>Enable Advanced Map (3D globe) on unsupported iPhones/iPods/iPads running iOS 15.</p>"
+        "description": "<p>Enable Advanced Map (3D globe) on unsupported iPhones/iPods/iPads running iOS 15+.</p>"
     },
     {
         "file": "latesttranslate",

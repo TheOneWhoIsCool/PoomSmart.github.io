@@ -32,6 +32,24 @@ Name: Adguard Unbounded
 
 Package: com.ps.advancedmapenabler
 Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/com.ps.advancedmapenabler_1.0.0_iphoneos-arm64.deb
+Size: 2874
+MD5sum: afd07a782fe8a000e126f0024a41b1e1
+SHA1: 67fc353a1187e16a22e2cd4d7ab0fe95c5ac0211
+SHA256: c5f65f0cdfa0884d8e2c97297c7d33a45f191d01fa165bf8a70dcfe9bba39798
+Section: Tweaks
+Description: Enable Advanced Map (globe) on unsupported iOS 15 devices
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/advancedmapenabler.html
+Name: Advanced Map Enabler
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/advancedmapenabler.json
+
+Package: com.ps.advancedmapenabler
+Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 168
@@ -3710,6 +3728,42 @@ Description: Twemoji Emoji 14.0 (Unicode 14.0) (EFM)
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/twemojiefm.html
 Name: Twemoji 14.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/twemojiefm.json
+
+Package: com.ps.twemojiefm
+Version: 15.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.twemojiefm_15.0.0_iphoneos-arm.deb
+Size: 726
+MD5sum: bf7b9edd21a3cb6b5965132245fae330
+SHA1: d26f9f8bc1a1613544f0a4e23c356149561fa45f
+SHA256: a77faba6bd3327bbe73a189f8ef4e55bc229522baac90259d79e4424d7b53067
+Section: Fonts (EFM)
+Description: Twemoji Emoji 15.0 (Unicode 15.0) (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/twemojiefm.html
+Name: Twemoji 15.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/twemojiefm.json
+
+Package: com.ps.twemojiefm
+Version: 15.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.twemojiefm_15.0.0_iphoneos-arm64.deb
+Size: 728
+MD5sum: 62114fdb3d69494f7a16dfa6a6ea3ced
+SHA1: fc7d910cf200db684c7a2a89a1d19e7527597e98
+SHA256: 408075dd77356f96f10d7616af15fc1129a24f0c4bbf618507468ec410d4bf52
+Section: Fonts (EFM)
+Description: Twemoji Emoji 15.0 (Unicode 15.0) (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/twemojiefm.html
+Name: Twemoji 15.0 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/twemojiefm.json
 
 Package: com.ps.uyoucompat
