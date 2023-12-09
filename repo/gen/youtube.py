@@ -283,6 +283,7 @@ youtube = [
         "description": "<p>Add a video quality to the video overlay where you can easily change the video quality.</p>\
             <p>Install YTClassicVideoQuality alongside this tweak to make video quality list appear right away.</p>",
         "changes": [
+            ["1.1.4-1", "Updated es localization"],
             ["1.1.4", "Make label displays for non 60 FPS 720p, 1080p, 2K and 4K"],
             ["1.1.2-1", "Added ja and tr localization"],
             ["1.1.2", "Use YouTube-styled font for the quality label (credits to @dayanch96)"],
