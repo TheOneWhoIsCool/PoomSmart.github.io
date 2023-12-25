@@ -168,8 +168,10 @@ youtube = [
             This tweak adds a new section named \"A/B\" in the app settings where all features can be toggled freely by you.\
             There are over 1000 features available. Some of them are already overriden by tweaks like YTABGoodies and its predecessors.</p>",
         "changes": [
-            ["1.5.0-2", "Added ro localization"],
-            ["1.5.0-1", "Updated tr localization"],
+            ["1.5.0-3", [
+                "Added ro localization",
+                "Updated de, tr localization"
+            ]],
             ["1.5.0", [
                     "Tap on each A/B setting to reveal its class, copy it to clipboard or delete itself from the modified list",
                     "Fixed \"View modified settings\" showing outdated settings"
@@ -256,10 +258,11 @@ youtube = [
         "tintColor": "red",
         "description": "<p>A helper tweak to add buttons on YouTube's video overlay. Used by YouMute and YouQuality.</p>",
         "changes": [
-            ["1.1.1-1", "Updated ja localization"],
-            ["1.1.1", "Fixed incorrect button positioning in some scenarios"],
-            ["1.1.0-1", "Added tr localization"],
-            ["1.1.0", "Fixed crashing due to invalid button positioning"]
+            ["1.1.1-2", [
+                "Added de localization",
+                "Updated ja localization"
+            ]],
+            ["1.1.1", "Fixed incorrect button positioning in some scenarios"]
         ]
     },
     {
@@ -269,7 +272,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Add a mute button to the video overlay where you can directly mute or unmute the video.</p>",
         "changes": [
-            ["1.2.1-1", "Added tr localization"],
+            ["1.2.1-3", "Added de, tr localization"],
             ["1.2.1", "Depends on YTVideoOverlay helper tweak"],
             ["1.1.1", "Corrected mute button position when placed at the bottom and the audio track button is visible"],
             ["1.1.0", "Added setting page, allowing you to toggle tweak and change mute button position"]
@@ -283,7 +286,10 @@ youtube = [
         "description": "<p>Add a video quality to the video overlay where you can easily change the video quality.</p>\
             <p>Install YTClassicVideoQuality alongside this tweak to make video quality list appear right away.</p>",
         "changes": [
-            ["1.1.4-1", "Updated es localization"],
+            ["1.1.4-2", [
+                "Added de localization",
+                "Updated es localization"
+            ]],
             ["1.1.4", "Make label displays for non 60 FPS 720p, 1080p, 2K and 4K"],
             ["1.1.2-1", "Added ja and tr localization"],
             ["1.1.2", "Use YouTube-styled font for the quality label (credits to @dayanch96)"],
