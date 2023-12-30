@@ -100,7 +100,7 @@ tweaks = [
         "changes": [
             ["1.2.0", "Added Reduce edge insets option for iPadOS 15+"],
             ["1.1.2", "Made IconOrder an option for icon layout persistence library"],
-            ["1.1.1", "Added folder rows and columns settings (iOS 14+, credits to @UInt2048)"]
+            ["1.1.1", "Added folder rows and columns settings (iOS 14+, contributed by @UInt2048)"]
         ]
     },
     {

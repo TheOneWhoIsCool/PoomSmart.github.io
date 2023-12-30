@@ -4140,48 +4140,6 @@ Name: YouPiP
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
 
 Package: com.ps.youpip
-Version: 1.7.19
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 296
-Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture | com.cabralcole.forceinpicture
-Conflicts: com.spicat.youpip
-Replaces: com.spicat.youpip
-Provides: com.spicat.youpip
-Filename: ./debs/youtube/youpip/com.ps.youpip_1.7.19_iphoneos-arm.deb
-Size: 29634
-MD5sum: d1990912fc71eba2d9882ae55a6a8bca
-SHA1: 6cc34778a4fc07293ea634991f998f09efa2eb65
-SHA256: 16dcdd23ee533a190829177fa7205acf2f3f0ce2ef08a6cb395d3482666c7996
-Section: Tweaks
-Description: Enable native PiP in YouTube app.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
-Name: YouPiP
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
-
-Package: com.ps.youpip
-Version: 1.7.19-1
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 300
-Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture | com.cabralcole.forceinpicture
-Conflicts: com.spicat.youpip
-Replaces: com.spicat.youpip
-Provides: com.spicat.youpip
-Filename: ./debs/youtube/youpip/com.ps.youpip_1.7.19-1_iphoneos-arm64.deb
-Size: 29810
-MD5sum: ffe934eba07782181dc7eebe54ff7d33
-SHA1: 9a6bf8ef4efafa18197d3c2cc36b9a7722bfb3af
-SHA256: 2ef3f890ccd0d91fb876b79c16168179ec82206527b3481371685a2ca6a6d594
-Section: Tweaks
-Description: Enable native PiP in YouTube app.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
-Name: YouPiP
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
-
-Package: com.ps.youpip
 Version: 1.7.19-2
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
@@ -4300,6 +4258,48 @@ Size: 29744
 MD5sum: 448c80e01f524de7ffefa0a1f2199e94
 SHA1: f7804a318f1eac1226bf5d3787687ecc42d135d9
 SHA256: 327c4c6592f1f19961a00b818fcacd28f5f31fab129da230d7d2029b69aa1a33
+Section: Tweaks
+Description: Enable native PiP in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Name: YouPiP
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
+Package: com.ps.youpip
+Version: 1.8.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 300
+Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture | com.cabralcole.forceinpicture
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Provides: com.spicat.youpip
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.8.0_iphoneos-arm.deb
+Size: 31530
+MD5sum: dfc0ddd86333c2e1468515e9f6516a78
+SHA1: 3dec1a6b82d295adfd47971b3e8b608255bec527
+SHA256: f40135b61f172fc422a165150c6352f01f68f2b570f74e016722ceb55ce6ebad
+Section: Tweaks
+Description: Enable native PiP in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Name: YouPiP
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
+Package: com.ps.youpip
+Version: 1.8.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 300
+Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture | com.cabralcole.forceinpicture
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Provides: com.spicat.youpip
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.8.0_iphoneos-arm64.deb
+Size: 31568
+MD5sum: 6057246f3f08311e92290d6154ca145f
+SHA1: 36a146b2e02fc7375236ff98504ab15577d3189b
+SHA256: 3ace52b8ce5d6d744d7a752359596d07d21574063848636a54622d7fe7b91c68
 Section: Tweaks
 Description: Enable native PiP in YouTube app.
 Author: PoomSmart

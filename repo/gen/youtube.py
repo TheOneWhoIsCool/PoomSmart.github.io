@@ -46,14 +46,17 @@ youtube = [
         "description": "<p>Enable native PiP in iOS YouTube app.</p>\
             <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 15.10.4 but full compatibility for older versions is low-priority.</p>",
         "changes": [
+            ["1.8.0", "Add PiP button to video tab bar for new YouTube versions (contributed by NguyenASang)"],
             ["1.7.22", [
                     "Fixed Legacy PiP compatibility on YouTube 18.41.2 and higher",
                     "Known issue: Non-Legacy PiP may not work on iOS 14 and lower on recent YouTube versions"
                 ]
             ],
             ["1.7.21", "Corrected type encoding for the added methods"],
-            ["1.7.19-2", "Updated ar localization"],
-            ["1.7.19", "You may now enable or disable YouPiP from its settings"],
+            ["1.7.19-2", [
+                "You may now enable or disable YouPiP from its settings",
+                "Updated ar localization"
+            ]],
             ["1.7.18", "Fixed PiP not activating for some people"],
             ["1.7.17", "Fixed \"Fake YouTube version\" not restoring the old video bar for some people"],
             ["1.7.16 (15.10.4+)", "Fixed crashing when activating PiP with \"Legacy PiP\" enabled on recent YouTube versions"]
@@ -106,7 +109,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Always enable progress bar and scrubbing in YouTube Shorts.</p>",
         "changes": [
-            ["1.0.3", "Added more hooks (credits to @dayanch96)"],
+            ["1.0.3", "Added more hooks (contributed by @dayanch96)"],
             ["1.0.2", "Fixed a bug where swiping on a full-screen video always triggers progress bar change"]
         ]
     },
@@ -190,7 +193,7 @@ youtube = [
             ]],
             ["1.4.4", [
                     "Added support for YouTube 16.42.3 and lower",
-                    "Added search functionality (credits to @level3tjg)",
+                    "Added search functionality (contributed by @level3tjg)",
                     "Added \"Group settings by prefixes\" option",
                     "Optimized the existence check of modified settings",
                     "Display \"Copied to clipboard\" alert also when modified settings are copied",
@@ -241,7 +244,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Make your video full-screen on playing.</p>",
         "changes": [
-            ["1.0.3", "Fixed possible crash in some cases credits to @bakedpotato191"]
+            ["1.0.3", "Fixed possible crash in some cases (contributed by @bakedpotato191)"]
         ]
     },
     {
@@ -292,7 +295,7 @@ youtube = [
             ]],
             ["1.1.4", "Make label displays for non 60 FPS 720p, 1080p, 2K and 4K"],
             ["1.1.2-1", "Added ja and tr localization"],
-            ["1.1.2", "Use YouTube-styled font for the quality label (credits to @dayanch96)"],
+            ["1.1.2", "Use YouTube-styled font for the quality label (contributed by @dayanch96)"],
             ["1.1.1", "Depends on YTVideoOverlay helper tweak"],
             ["1.0.0-1", "Added ru and zh_cn localization"]
         ]
