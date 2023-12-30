@@ -77,6 +77,9 @@ tweaks = [
         "file": "recordntorch",
         "title": "Record 'n' Torch",
         "min_ios": "12.0",
+        "changes": [
+            ["1.8.2", "Fixed torch not turning on for modern camera devices"]
+        ],
         "description": "<p>Toggle torch while recording video on iOS camera app.</p>"
     },
     {
