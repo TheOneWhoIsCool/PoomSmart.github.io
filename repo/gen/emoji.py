@@ -223,12 +223,13 @@ emoji = [
     },
     {
         "file": "fluentuiefm",
-        "title": "FluentUI Emoji Unicode 14.0 (EFM)",
+        "title": "FluentUI Emoji Unicode 15.0 (EFM)",
         "screenshots": True,
         "changes": [
+            ["15.0.0", "Updated to Unicode 15.0"],
             ["14.0.5", "Theme 00a9 and 00ae emojis"]
         ],
-        "description": "<p>Windows 11 FluentUI emoji font for EmojiFontManager (Unicode 14.0).</p><br/>\
+        "description": "<p>Windows 11 FluentUI emoji font for EmojiFontManager (Unicode 15.0).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p>"
     },
     {
@@ -236,8 +237,7 @@ emoji = [
         "title": "JoyPixels Emoji Unicode 15.0 (EFM)",
         "screenshots": True,
         "changes": [
-            ["15.0.0", "Updated to JoyPixels 8.0 (Unicode 15.0)"],
-            ["14.0.5", "Theme 00a9 and 00ae emojis"]
+            ["15.0.0", "Updated to JoyPixels 8.0 (Unicode 15.0)"]
         ],
         "description": "<p>JoyPixels emoji font for EmojiFontManager (Unicode 15.0).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
@@ -277,8 +277,7 @@ emoji = [
         "title": "OpenMoji Unicode 15.0 (EFM)",
         "screenshots": True,
         "changes": [
-            ["15.0.0", "Updated to Unicode 15.0"],
-            ["14.0.4", "Theme 00a9 and 00ae emojis"]
+            ["15.0.0", "Updated to Unicode 15.0"]
         ],
         "description": "<p>OpenMoji emoji font for EmojiFontManager (Unicode 15.0).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
@@ -308,8 +307,7 @@ emoji = [
         "title": "Twemoji Unicode 15.0 (EFM)",
         "screenshots": True,
         "changes": [
-            ["15.0.0", "Updated to Unicode 15.0"],
-            ["14.0.4", "Theme 00a9 and 00ae emojis"]
+            ["15.0.0", "Updated to Unicode 15.0"]
         ],
         "description": "<p>Twitter Twemoji emoji font for EmojiFontManager (Unicode 15.0).</p>"
     },
