@@ -111,6 +111,9 @@ emoji = [
         "max_ios": "8.2",
         "strict_range": True,
         "no_sileo": True,
+        "changes": [
+            ["1.8.1", "Fixed emoji category images not displaying correctly"]
+        ],
         "description": "<p>Latest emojis for iOS 6.0 - 8.2</p>\
                 <p><a href=\"https://poomsmart.github.io/emojiport\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
     },
