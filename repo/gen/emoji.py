@@ -38,6 +38,7 @@ emoji = [
         "title": "EmojiFontManager",
         "min_ios": "6.0",
         "changes": [
+            ["1.3.5", "Fixed emojis not rendered correctly on iOS 10"],
             ["1.3.4", "Use _NSGetExecutablePath to detect process type"],
             ["1.3.3", [
                 "Rootless: Disabled injection into WebContent due to ongoing issues with ElleKit",
